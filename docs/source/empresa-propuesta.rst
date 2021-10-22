@@ -70,7 +70,7 @@ Carpet4You dispone del AS número 88757. Este *Autonomous Number* tiene una seri
 +------------------+---------------------+-------------------------------+-----------------+
 
 
-.. Hint:: Nótese que el rango de IPv4 no es enrutable en Internet y corresponde al rango de las IPs asigadas a los Internet Service Providers (IPS) para el uso de CG-NAT.
+.. Attention::: Nótese que el rango de IPv4 no es enrutable en Internet y corresponde al rango de las IPs asigadas a los Internet Service Providers (IPS) para el uso de CG-NAT.
 
 Dominio de la empresa
 =====================

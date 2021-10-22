@@ -14,6 +14,6 @@ Contents
 .. toctree::
 
    introducción
-   propuesta-empresa
+   empresa-propuesta
    usage
    api
