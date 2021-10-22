@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Proyecto SYAD Trimestre 1'
+copyright = '2021, Pablo González, CC BY 2.5 ES'
+author = 'Pablo González'
 
 release = '0.1'
 version = '0.1.0'
