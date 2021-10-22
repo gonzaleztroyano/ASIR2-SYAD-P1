@@ -1,9 +1,10 @@
-Template for the Read the Docs tutorial
-=======================================
+# Proyecto integrador Seguridad y Alta Disponibilidad
+## Pablo González - 2º ASIR
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+En este repositorio se alojarán los documentos para la web [https://syad.gonzaleztroyano.es](https://syad.gonzaleztroyano.es/)
 
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+Se utilizan las siguientes herramientas:
+ * [Read the Docs](https://readthedocs.org/)
+ * [Sphinx Docs](https://www.sphinx-doc.org/)
+ * [Python](https://www.python.org/)
+ * [GitHub](https://github.com/gonzaleztroyano)

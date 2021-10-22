@@ -1,4 +1,4 @@
-Bienvenida/o a la documentación del proyecto
+Proyecto integrador Seguridad y Alta Disponibilidad
 ===================================
 
 En esta página web se irán añadiendo los resúmenes de las tareas realizadas para el proyecto integrador de Seguridad y Alta Disponibilidad, en el curso de 2º ASIR.
@@ -8,7 +8,7 @@ En esta página web se irán añadiendo los resúmenes de las tareas realizadas 
 
    Este repositorio está todavía en desarrollo
 
-Contents
+Índice
 --------
 
 .. toctree::
@@ -16,5 +16,4 @@ Contents
    introducción
    empresa-propuesta
    control-de-acceso
-   usage
-   api
+   sistemas-anti-incendios
