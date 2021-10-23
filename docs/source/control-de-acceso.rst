@@ -21,7 +21,7 @@ Gestión de grabaciones
 -----------------------
 La gestión de grabaciones se guardará en dos ubicaciones distintas como provisión de redunancia. Las grabacones serán guardadas durante 30 días en el centro y las grabaciones de los últimos 14 serán enviadas a través de conexión privada que la compañía tiene contratada (al menos) a otra sede de la empresa. 
 
-En todas las oficinas se dispone de un armario especial, marca *Rittal*, modelo *Micro Data Center Level E*. Más información en `este enlace <https://www.rittal.com/es-es/product/list/variations.action?categoryPath=/PG0001/PG0800ITINFRA1/PGRP5189ITINFRA1/PG1635ITINFRA1/PG1640ITINFRA1/PRO16554ITINFRA&productID=PRO16554>_`. En este se guardarán los equipos más importantes de la red. Por un lado, el sistema de gestión de grabaciones. Y los border routers que conectan los diferentes switches primarios de las salas. Estos border routers estarán conectados con dos 2 ISPs Tier 1, al menos. Y si la construcción lo permite, mediante canales exteriores distintos. 
+En todas las oficinas se dispone de un armario especial, marca *Rittal*, modelo *Micro Data Center Level E*. Más información en `este enlace <https://www.rittal.com/es-es/product/list/variations.action?categoryPath=/PG0001/PG0800ITINFRA1/PGRP5189ITINFRA1/PG1635ITINFRA1/PG1640ITINFRA1/PRO16554ITINFRA&productID=PRO16554>`_. En este se guardarán los equipos más importantes de la red. Por un lado, el sistema de gestión de grabaciones. Y los border routers que conectan los diferentes switches primarios de las salas. Estos border routers estarán conectados con dos 2 ISPs Tier 1, al menos. Y si la construcción lo permite, mediante canales exteriores distintos. 
 
 El hardware que alojará las grabaciones de las cámaras es el propio de la marca *Unifi*, el nombre del producto es *Unifi Protect Network Video Recorder Pro*. Hay disponible más información sobre dicho artículo en `este enlace <https://store.ui.com/collections/surveillance/products/unifi-protect-network-video-recorder-pro>`_. 
 
@@ -38,8 +38,7 @@ Coste del sistema de grabaciones
 +----------------+----------+---------------+--------------+
 |     G4 PTZ     |     5    |    1 509,00 € |   7 545,00 € |
 +----------------+----------+---------------+--------------+
-|     NVR Pro    |     1    |    1 500,00 € |   1 500,00 € |
-|      + HDD     |          |               |              |
+| NVR Pro + HDD  |     1    |    1 500,00 € |   1 500,00 € |
 +----------------+----------+---------------+--------------+
 
 Sistema de control de personas interior
@@ -70,7 +69,6 @@ Coste del sistema de control de paso
 |       Producto      | Cantidad | Precio/Unidad | Precio total |
 +=====================+==========+===============+==============+
 | Tarjetas de control |    200   |        3,00 $ |     600,00 $ |
-|      de acceso      |          |               |              |
 +---------------------+----------+---------------+--------------+
 |      Access Hub     |     7    |      199,00 $ |   1 393,00 $ |
 +---------------------+----------+---------------+--------------+
@@ -84,6 +82,7 @@ Coste del sistema de control de paso
 
 Sistema de arcos de seguridad y detectores de metales
 =====================================================
+
 La instalación y el mantenimiento de estas soluciones correrá a cargo de la empresa barcelonesa "OrcromSeguridad". Se instalará en el control de acceso 2 un conjunto de control del fabricante *Garret Metal Detectors*. En `este enlace <https://www.orcromseguridad.com/wp-content/uploads/2018/10/Integracion-Garrett-VMI.pdf>`_ se encuentra disponible un folleto publicitario con los productos que incluye el conjunto. Son los siguientes:
  * *Spectrum 6040*, que permite la inspección de mochilas y bolsos de empleados y visitantes. Se instará a los empleados a no pasar al interior con mochilas y bolsos, permitiéndolo dejar en taquillas vigiladas en el control. De esta manera se evita la sobre exposición de la empleada/o del Control, trabajadoras, trabajadores y visitantes a los rayos X, así como de sus pertenencias. En `este enlace <https://www.orcromseguridad.com/nuestros-productos/equipo-rayos-x-spectrum-6040/>`_ se puede obtener más información sobre este producto. 
  * *Garrett PD 6500i*, este arco de seguridad permite evitar el paso con objetos metálicos al interior del recinto. Desde `este enlace <https://orcromseguridad.com/wp-content/uploads/2018/08/arco-detector-Garrett-PD6500i.pdf>`_ se puede obtener más información sobre dicho producto. 
