@@ -13,6 +13,7 @@ Ejercicio 4.1
 Para generar un par de claves asimétricas debemos seguir las siguientes instrucciones:
 
 .. code-block:: console
+    
     pablo@carpet:~$ gpg --gen-key
     gpg (GnuPG) 2.2.12; Copyright (C) 2018 Free Software Foundation, Inc.
     This is free software: you are free to change and redistribute it.
@@ -52,6 +53,7 @@ Para generar un par de claves asimétricas debemos seguir las siguientes instruc
 Para ver las clave generada podemos utilzar el siguiente comando:
 
 .. code-block:: console
+    
     pablo@carpet:~$ gpg -k
     gpg: checking the trustdb
     gpg: marginals needed: 3  completes needed: 1  trust model: pgp
@@ -72,6 +74,7 @@ Ejercicio 4.2
 Para generar un par de claves asimétricas ejecutar el comando siguiente. El comando nos pedirá el nombre y el correo electrónico que queremos utilizar para la generación. También la clave simétrica que protegerá la clave privada. 
 
 .. code-block:: console
+    
     gpg gen-key
     [...]
     public and secret key created and signed.
@@ -81,6 +84,7 @@ Para generar un par de claves asimétricas ejecutar el comando siguiente. El com
     uid                      Carpet4You Management (Las mejores alfombras del universo) <info@carpet4you.site>
     sub   rsa3072 2021-10-23 [E] [expires: 2022-01-21]
 
+
 Ejercicio 4.3
 =============
 *Muestra las claves privadas de tu empleado y de tu empresa. Captura la pantalla el comando utilizado y el resultado obtenido.*
@@ -88,6 +92,7 @@ Ejercicio 4.3
 Para ver las claves privadas que tenemos en nuestro *keyring* debemos ejecutar el siguiente comando:
 
 .. code-block:: console
+    
     pablo@carpet:~$ gpg -k
     gpg: checking the trustdb
     gpg: marginals needed: 3  completes needed: 1  trust model: pgp
@@ -106,6 +111,7 @@ Para ver las claves privadas que tenemos en nuestro *keyring* debemos ejecutar e
     sub   rsa3072 2021-10-23 [E] [expires: 2022-01-21]
 
 
+
 Ejercicio 4.4 y 4.5
 ===================
 
@@ -114,6 +120,7 @@ Ejercicio 4.4 y 4.5
 Para exportar las claves públicas:
 
 .. code-block:: console
+    
     pablo@carpet:~$ gpg --armor --output ClavePublicaPabloGonzalez.key --export D5AA1DFFB6A4557305CECF4148CF9B50966CC9B7
 
     pablo@carpet:~$ gpg --armor --output ClavePublicaCarpet4You.key --export 0171E7FC0657E4CCFAEC3C23164857A2CDB61EEC
@@ -122,9 +129,11 @@ Para exportar las claves públicas:
 Para exportar las claves privadas (nos pedirá la clave simétrica):
 
 .. code-block:: console
+    
     pablo@carpet:~$ gpg --armor --output ClavePrivadaPabloGonzalez.key --export-secret-keys D5AA1DFFB6A4557305CECF4148CF9B50966CC9B7
     
     pablo@carpet:~$ gpg --armor --output ClavePrivadaCarpet4You.key --export-secret-keys 0171E7FC0657E4CCFAEC3C23164857A2CDB61EEC
+
 
 
 Ejercicio 4.6
@@ -135,11 +144,17 @@ Ejercicio 4.6
 Una vez descargadas desde el Aula Virtual las claves, debemos extraer los .key del archivo comprimido tar.gz:
 
 .. code-block:: console
+    
     pablo@carpet:~$ tar -xf 'ClavesPublicayPrivada Empleado genérico .tar.gz'
 
+
+
 .. warning::
+    
     Se ha producido un error al importar la clave pública. Parece que ocupa 0 bytes:
+    
     .. code-block:: console
+        
         pablo@carpet:~$ ls -lah
         -rwxr-xr-x 1 pablo pablo 5241 Nov 11  2019 PrivateKeyEmpleadoGenerico.key
         -rwxr-xr-x 1 pablo pablo    0 Nov 11  2019 PublicKeyEmpleadoGenerico.key
@@ -150,12 +165,14 @@ Ejercicio 4.7
 *Cifra un fichero con el texto “Hola Mundo” y encriptarlo con el empleado genérico. Captura la pantalla el comando utilizado y el resultado obtenido. Entrega el fichero encriptado.*
 
 .. code-block:: console
+    
     pablo@carpet:~$ echo "Hola Mundo" > Empleado-PabloGonzález.txt
     pablo@carpet:~$ gpg -a -r pablo@carpet4you.site --encrypt Empleado-PabloGonzález.txt
     
     pablo@carpet:~$ ll E*
         -rw-r--r-- 1 pablogontroya pablogontroya  11 Oct 23 23:03 Empleado-PabloGonzález.txt
         -rw-r--r-- 1 pablogontroya pablogontroya 736 Oct 23 23:04 Empleado-PabloGonzález.txt.asc
+
 
 
 Ejercicio 4.8
@@ -165,10 +182,12 @@ Ejercicio 4.8
 Para desencriptar el fichero debemos utilizar el comando que podemos ver a continuación. Nos pedirá la clave simétrica de la clave privada. 
 
 .. code-block:: console
+    
     pablo@carpet:~$ gpg --decrypt Empleado-PabloGonzález.txt.asc 
     gpg: encrypted with 3072-bit RSA key, ID 8D27C3D26858C7E2, created 2021-10-23
         "Pablo González <pablo@carpet4you.site>"
     Hola Mundo
+
 
 
 Ejercicio 4.9
@@ -176,11 +195,15 @@ Ejercicio 4.9
 *Firma digitalmente con la clave asimétrica de tu empresa el fichero que has subido a la web en el anterior ejercicio creando una firma separada del archivo. Sube la firma y la clave pública a tu web junto a los hash para que un usuario pueda comprobar la autoría del fichero. Captura la pantalla el comando utilizado y el resultado obtenido.*
 
 .. code-block:: console
+    
     pablo@carpet:~$ gpg --output plano_CPD.pdf.sign --sign plano_CPD.pdf
 
 
+
 Para verificar la firma del archivo podemos ejecutar:
+
 .. code-block:: console
+    
     pablo@carpet:~$ gpg --verify plano_CPD.pdf.sign 
     gpg: Signature made Sat 23 Oct 2021 11:19:36 PM CEST
     gpg:                using RSA key D5AA1DFFB6A4557305CECF4148CF9B50966CC9B7

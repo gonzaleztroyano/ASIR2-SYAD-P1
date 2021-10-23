@@ -20,3 +20,4 @@ En esta página web se irán añadiendo los resúmenes de las tareas realizadas 
    sistemas-anti-incendio
    seguridad-anti-catastrofes
    integridad-de-la-informacion
+   criptografia
