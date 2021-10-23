@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "trond-snekvik.simple-rst"
+        "trond-snekvik.simple-rst",
+        "searking.preview-vscode"
     ]
 }

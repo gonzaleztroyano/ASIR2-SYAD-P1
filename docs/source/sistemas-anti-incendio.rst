@@ -24,10 +24,10 @@ Los centros de datos son altamente vulnerables a los incendios por característi
 Para la detección de incendios se utilizará la Gama *Notifier by Honeywell*. La lista de productos actualizada a Julio de 2021 se encuentra disponible en `este enlace <https://jmsystems.es/img/cms/Catlg_Honeywell_19_LowR.pdf>`_ y el detalle de coste de los productos es accesible desde `este otro enlace <https://jmsystems.es/files/Lista_Precios_Notifier.xlsx>`_. Esta lista de productos y precios se ha obtenido de la web del proveedor `JMSystems <https://jmsystems.es/es/>`_ 
 
 Productos de detección  y alerta de incendios elegidos
---------------------------------------------
+------------------------------------------------------
  * 1 Central analógicas AM-8200, que se situará en la sala de Administración y Control. 
  * 1 HON-CGW-MBB, El CLSS Gateway es la interfaz de Honeywell Fire que se conecta a una central o a una red de centrales de incendios de Honeywell, sirviendo de portal entre la central, la Nube y los dispositivos periféricos. La Pasarela CLSS permite leer el inventario del sistema de dispositivos conectados desde una central o una red de centrales y transmitir estos datos a la Nube de Honeywell. Conexión Wi-fi y/o Ethernet
- * 2x LCD-8200, Panel repetidor para las centrales analógicas AM-8200. Se situarán en los controles de acceso. 
+ * 2 LCD-8200, Panel repetidor para las centrales analógicas AM-8200. Se situarán en los controles de acceso. 
  * 45 detector óptico IR analógico de alta sensibilidad (NFXI-VIEW). Estarán situados 15 en cada sala de proceso de datos.
  * 30 pulsadores de alarma M5A-RP02FF-N026-41. 
  * 10  Sirena EN54/3 y EN54/23 con cobertura “Wide“ (DSE3-23 HW). Situadas en puntos estratégicos para la alerta del personal del centro.
@@ -56,6 +56,7 @@ Extinción de incendios (off-room)
 Para la extinción de incendios en los pasillos, vestíbulos y alrededores del edificio de CPD se implementan las siguientes medidas:
  * Se instalan bombas de extinción de incendios en el exterior de la sede. De esta forma se podrían sofocar incendios provocados por, por ejemplo, coches. Un incendio exterior no sofocado puede propagarse al interior y ser mucho más problemático. Estas BIE (Bocas de Incendio Equipadas) estarán señalizadas acorde a la legalización y se encontrará una cada 100 metros en la pared exterior del edificio. 
  * Junto con las BIE, se instalarán hidrantes para facilitar la acción del equipo de bomberos en caso de ser necesario. 
+ * Las mangueras de las BIE por norma general se encuentran entre los 20 y 50 metros. Se adquiere una manguera racorada (con los *"enganches"*) y un portamangueras, que serán depositados en el control de acceso 2 listos para ser desplegados en caso de ser necearios.
  * No se instalarán aspersores no ningún método de extinción por agua en el interior del edificio. Esto podría provocar problemas con los componentes eléctricos. 
  * Se instalarán extintores de 5kg cada 100 metros por lateral, alternándolos. Lo que en la práctica significará que cada 50 metros habrá disponible un extintor. Así como uno de 10kg en cada control de acceso y en la sala de Administración y Control. 
 
@@ -80,7 +81,36 @@ En la esta sala de proceso de datos también se situarán la señalización de e
 Aunque no se prevé su uso gracias a la instalación del sistema FM-200 serán instalados extintores de CO2. En cada extremo del pasillo se situará un extintor de 5 Kg de CO2 (peso total 14Kg) [#nota3]_ . De forma adicional, en los pasillos intermedios entre los primarios, perpendiculares a estos, se instalarán extintores de C02 de 2Kg. Estos extitores tiene un peso total de unos 8 Kg, aproximadamente. Se eligen estos para permitir que cualquier persona pueda utilizarlos y el peso de la solución no sea problema para aplicarlo. 
 
 
-.. rubric:: Footnotes
+Productos de extinción de incendios elegidos
+----------------------------------------------
++-------------------------+----------+---------------+--------------+
+|         Producto        | Cantidad | Precio/Unidad | Precio total |
++=========================+==========+===============+==============+
+|       BIE exterior      |     6    |      166,00 € |     996,00 € |
++-------------------------+----------+---------------+--------------+
+| Manguera plana racorada |     1    |      200,00 € |     200,00 € |
+|         exterior        |          |               |              |
++-------------------------+----------+---------------+--------------+
+|      Extintor 5 Kg      |     6    |       47,80 € |   1 242,80 € |
+|        (off-room)       |          |               |              |
++-------------------------+----------+---------------+--------------+
+|      Extintor 10 Kg     |     2    |      149,00 € |     298,00 € |
+|        (off-room)       |          |               |              |
++-------------------------+----------+---------------+--------------+
+|      Extintor 5 Kg      |     6    |       47,80 € |   1 242,80 € |
+|        (on-room)        |          |               |              |
++-------------------------+----------+---------------+--------------+
+|      Extintor 2 Kg      |     6    |       47,80 € |   1 242,80 € |
+|        (on-room)        |          |               |              |
++-------------------------+----------+---------------+--------------+
+|       Señalización      |    30    |       5, 00 € |     150,00 € |
+|         (aprox.)        |          |               |              |
++-------------------------+----------+---------------+--------------+
+
+Nota: no se incluye el sistema FM-200 al desconocer su precio.
+
+
+.. rubric:: Notas al pie de página
 
 .. [#nota1] Más información sobre dicho estándar se puede obtener `aquí <https://ctech.ul.com/wp-content/uploads/sites/54/2017/07/WP_NFPA75FireProtectionSuppressionDataCenters_12_15.pdf>`_ y `aquí <https://web.archive.org/web/20211022182220/http://tmpccc.com/uploads/Laws/NFPA/A_NFPA75.pdf>`_
 .. [#nota2] En `este <https://www.datacenterdynamics.com/en/news/ovhcloud-goes-down-in-outage-affecting-global-backbone/>`_ artículo se puede obtener más información sobre el incendio que sufrió OVH.
