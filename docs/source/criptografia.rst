@@ -112,7 +112,7 @@ Para ver las claves privadas que tenemos en nuestro *keyring* debemos ejecutar e
 
 
 
-Ejercicio 4.4 y 4.5
+Ejercicios 4.4 y 4.5
 ===================
 
 *Exporta las claves privadas/públicas de tu empleado y de tu empresa a archivos que se entregaran con el proyecto. Por cada uno de ellos se tendrán los archivos ClavePublicaNombreApellidos.key que contendrá la clave pública y ClavePrivadaNombreApellidos.key que contendrá la clave privada del usuario y ClavePublicaNombreEmpresa.key y ClavePrivadaNombreEmpresa.key de las empresas.*
