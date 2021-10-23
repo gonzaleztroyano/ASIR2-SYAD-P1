@@ -38,8 +38,7 @@ Suma de comprobación SHA512
     pablo@carpet:~$ sha512sum plano_CPD.pdf 
     1ec7ac99fa424a958e8f046f31aff6b524aa80cb860111ac2d0480f0282ec2bad8af35cee85cdde57708a5f2049b02e82628ec2b28ac7a6b194b7b6f7cabf0b1  plano_CPD.pdf
 
-Subida a la web de las sumas de comprobación
----------------------------------------------
+
 
 Una vez generados los *checksums*, también llamados *sumas de comprobación*, *huellas digitales* o *sumas de verificación* debemos subirlo a la web. 
 
