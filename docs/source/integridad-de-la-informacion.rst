@@ -2,7 +2,7 @@
 Integridad de la información de la empresa
 *******************************************
 
-A la web de la empresa (`Carpet4You.site <https://carpet4you.site>`_)se ha subido un documento (plano_CPD.pdf).
+A la web de la empresa (`Carpet4You.site <https://carpet4you.site>`_) se ha subido un documento (plano_CPD.pdf).
 
 Lo primero que hacemos es obtener el archivo, esto normalmente se hace antes de crear subirlo a la web, pero al estar en un máquina virtual es así más sencillo
 
@@ -44,6 +44,7 @@ Subida a la web de las sumas de comprobación
 Una vez generados los *checksums*, también llamados *sumas de comprobación*, *huellas digitales* o *sumas de verificación* debemos subirlo a la web. 
 
 A continuación se recogen las sumas en esta página web:
+
 +----------------------+----------------------------------------------------------------------------------------------------------------------------------+
 | Método de generación |                                                           Suma generada                                                          |
 +======================+==================================================================================================================================+
