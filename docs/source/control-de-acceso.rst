@@ -84,6 +84,7 @@ Sistema de arcos de seguridad y detectores de metales
 =====================================================
 
 La instalación y el mantenimiento de estas soluciones correrá a cargo de la empresa barcelonesa "OrcromSeguridad". Se instalará en el control de acceso 2 un conjunto de control del fabricante *Garret Metal Detectors*. En `este enlace <https://www.orcromseguridad.com/wp-content/uploads/2018/10/Integracion-Garrett-VMI.pdf>`_ se encuentra disponible un folleto publicitario con los productos que incluye el conjunto. Son los siguientes:
+
  * *Spectrum 6040*, que permite la inspección de mochilas y bolsos de empleados y visitantes. Se instará a los empleados a no pasar al interior con mochilas y bolsos, permitiéndolo dejar en taquillas vigiladas en el control. De esta manera se evita la sobre exposición de la empleada/o del Control, trabajadoras, trabajadores y visitantes a los rayos X, así como de sus pertenencias. En `este enlace <https://www.orcromseguridad.com/nuestros-productos/equipo-rayos-x-spectrum-6040/>`_ se puede obtener más información sobre este producto. 
  * *Garrett PD 6500i*, este arco de seguridad permite evitar el paso con objetos metálicos al interior del recinto. Desde `este enlace <https://orcromseguridad.com/wp-content/uploads/2018/08/arco-detector-Garrett-PD6500i.pdf>`_ se puede obtener más información sobre dicho producto. 
 
