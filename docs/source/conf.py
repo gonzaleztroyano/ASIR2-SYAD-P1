@@ -34,3 +34,7 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+# -- Modificar el FAVICON -- 
+html_favicon = 'https://carpet4you.site/images/carpet_yellowline_32.png'
+
