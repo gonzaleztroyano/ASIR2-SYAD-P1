@@ -69,14 +69,17 @@ Lo siguiente que debemos hacer es modifcar el archivo */etc/ssh/sshd_config* par
     
     PasswordAuthentication no
 
-Debemos reiniciar el servicio tal y como hemos visto en :ref:`_referencia-reinicio-ssh`.
+Debemos reiniciar el servicio tal y como hemos visto en :ref:`referencia-reinicio-ssh`.
 
 Si intentamos conectarnos ahora (con el programa Putty en Windows) recibiremos un error.
+
+
 .. raw:: html
 
     <div style="position: relative; margin: 2em; padding-bottom: 5%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
        <a href="https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/docs/source/images/errorssh1.png" rel="noopener"><img src="https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/docs/source/images/errorssh1.png" alt="Error SSH"></a>
     </div>
+
 
 Desconexión automática
 -----------------------

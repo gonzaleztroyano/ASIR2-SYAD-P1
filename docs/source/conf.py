@@ -38,3 +38,7 @@ epub_show_urls = 'footnote'
 # -- Modificar el FAVICON -- 
 html_favicon = 'https://carpet4you.site/images/carpet_yellowline_32.png'
 
+html_theme_options = {
+    'prev_next_buttons_location': 'none',
+
+}
