@@ -44,38 +44,38 @@ Los rangos privados están recogidos en el `RFC1918 <https://datatracker.ietf.or
 
 En el caso de Carpet4You, se ha decicido utilizar el rango privado 10.0.0.0/8 para direccionamiento IP interno. La amplitud de este rango permite a la empresa crecer, mantener subredes dedicadas por sede y no tener problemas a futuro. 
 
-+--------------------------+----------------------------------------------+
-| Dirección de red y VLANs |                   Usado en                   |
-+==========================+==============================================+
-| 10.201.0.0/16            | Sede Badajoz (B1)                            |
-| 10.201.0XX.0/24          | Rangos utilizados para Management            |
-| 10.201.1XX.0/24          | Rangos utilizados para los diferentes dptos. |
-| 10.201.201.XXX/32        | IP Gateways, diferentes sedes                |
-+--------------------------+----------------------------------------------+
-| 10.202.0.0/16            | Sede Bilbao (B2)                             |
-| 10.202.0XX.0/24          | Rangos utilizados para Management            |
-| 10.202.1XX.0/24          | Rangos utilizados para los diferentes dptos. |
-| 10.202.202.XXX/32        | IP Gateways, diferentes sedes                |
-+--------------------------+----------------------------------------------+
-| 10.203.0.0/16            | Sede Bruselas (B3)                           |
-| 10.203.0XX.0/24          | Rangos utilizados para Management            |
-| 10.203.1XX.0/24          | Rangos utilizados para los diferentes dptos. |
-| 10.203.203.XXX/32        | IP Gateways, diferentes sedes                |
-+--------------------------+----------------------------------------------+
-| 10.204.0.0/16            | Sede Bergen (B4)                             |
-| 10.204.0XX.0/24          | Rangos utilizados para Management            |
-| 10.204.1XX.0/24          | Rangos utilizados para los diferentes dptos. |
-| 10.204.204.XXX/32        | IP Gateways, diferentes sedes                |
-+--------------------------+----------------------------------------------+
-| 10.205.0.0/16            | Trabajadores Remotos                         |
-| 10.205.1.0/24            | Trabajadores Remotos en Rusia                |
-| 10.205.2.0/24            | Trabajadores Remotos en Minsk                |
-| 10.205.4.0/24            | Trabajadores Remotos en Reino Unido          |
-| 10.205.201.0/24          | Trabajadores Remotos asignados a sede B1     |
-| 10.205.202.0/24          | Trabajadores Remotos asignados a sede B2     |
-| 10.205.203.0/24          | Trabajadores Remotos asignados a sede B3     |
-| 10.205.204.0/24          | Trabajadores Remotos asignados a sede B4     |
-+--------------------------+----------------------------------------------+
++--------------------------+-------------------------------------------------+
+| Dirección de red y VLANs |                     Usado en                    |
++==========================+=================================================+
+| **10.201.0.0/16**        | **Sede Badajoz (B1)**                           |
+|  * 10.201.0XX.0/24       |  * Rangos utilizados para Management            |
+|  * 10.201.1XX.0/24       |  * Rangos utilizados para los diferentes dptos. |
+|  * 10.201.201.XXX/32     |  * IP Gateways, diferentes sedes                |
++--------------------------+-------------------------------------------------+
+| **10.202.0.0/16**        | **Sede Bilbao (B2)**                            |
+|  * 10.202.0XX.0/24       |  * Rangos utilizados para Management            |
+|  * 10.202.1XX.0/24       |  * Rangos utilizados para los diferentes dptos. |
+|  * 10.202.202.XXX/32     |  * IP Gateways, diferentes sedes                |
++--------------------------+-------------------------------------------------+
+| **10.203.0.0/16**        | **Sede Bruselas (B3)**                          |
+|  * 10.203.0XX.0/24       |  * Rangos utilizados para Management            |
+|  * 10.203.1XX.0/24       |  * Rangos utilizados para los diferentes dptos. |
+|  * 10.203.203.XXX/32     |  * IP Gateways, diferentes sedes                |
++--------------------------+-------------------------------------------------+
+| **10.204.0.0/16**        | **Sede Bergen (B4)**                            |
+|  * 10.204.0XX.0/24       |  * Rangos utilizados para Management            |
+|  * 10.204.1XX.0/24       |  * Rangos utilizados para los diferentes dptos. |
+|  * 10.204.204.XXX/32     |  * IP Gateways, diferentes sedes                |
++--------------------------+-------------------------------------------------+
+| **10.205.0.0/16**        | **Trabajadores Remotos**                        |
+|  * 10.205.1.0/24         |  * Trabajadores Remotos en Rusia                |
+|  * 10.205.2.0/24         |  * Trabajadores Remotos en Minsk                |
+|  * 10.205.4.0/24         |  * Trabajadores Remotos en Reino Unido          |
+|  * 10.205.201.0/24       |  * Trabajadores Remotos asignados a sede B1     |
+|  * 10.205.202.0/24       |  * Trabajadores Remotos asignados a sede B2     |
+|  * 10.205.203.0/24       |  * Trabajadores Remotos asignados a sede B3     |
+|  * 10.205.204.0/24       |  * Trabajadores Remotos asignados a sede B4     |
++--------------------------+-------------------------------------------------+
 
 
 Conectividad física para las sedes

@@ -65,7 +65,7 @@ Extinción de incendios (on-room)
 
 El sistema principal de extinción de incendios de la sala de proceso de datos estará basado en *FM-200*. Es un gas incoloro y no conductor, lo que permite ser usado en nuestro caso, con servidores. El compuesto es heptafluoropropano. 
 Este gas se envasa en estado líquido en cilindros metálicos de alta presión. En caso de detectar un incendio, es liberado inmediatamente en la sala mediante tuberías, ocupando el mayor espacio posible (al ser un gas) en pocos segundos. Opera interrumpiendo la reacción en cadena. 
-Es un gas no tóxico, por lo que agentes de bomberos y el propio personal de Carpet4You puede estar en la sala para colaborar en la extinción o retornar equipos sin necesidad de expulsar el gas. En el CPD de Bilbao previamente se utilizada CO2, pero se ha actualizado recientemente a FM-200 por esta diferencia.
+Es un gas no tóxico, por lo que agentes de bomberos y el propio personal de Carpet4You puede estar en la sala para colaborar en la extinción o retornar equipos sin necesidad de expulsar el gas. En el CPD de Bilbao previamente se utilizada CO\ :sub:`2`\, pero se ha actualizado recientemente a FM-200 por esta diferencia.
 
 Así es como actúa el FM-200:
 
@@ -78,7 +78,7 @@ Así es como actúa el FM-200:
 
 En la esta sala de proceso de datos también se situarán la señalización de emergencia y evacuacion (siempre clase A para facilitar la identificación aún en momentos de poca visibiliad o fallo de suministro eléctrico). 
 
-Aunque no se prevé su uso gracias a la instalación del sistema FM-200 serán instalados extintores de CO2. En cada extremo del pasillo se situará un extintor de 5 Kg de CO2 (peso total 14Kg) [#nota3]_ . De forma adicional, en los pasillos intermedios entre los primarios, perpendiculares a estos, se instalarán extintores de C02 de 2Kg. Estos extitores tiene un peso total de unos 8 Kg, aproximadamente. Se eligen estos para permitir que cualquier persona pueda utilizarlos y el peso de la solución no sea problema para aplicarlo. 
+Aunque no se prevé su uso gracias a la instalación del sistema FM-200 serán instalados extintores de CO\ :sub:`2`\. En cada extremo del pasillo se situará un extintor de 5 Kg de CO\ :sub:`2`\ (peso total 14Kg) [#nota3]_ . De forma adicional, en los pasillos intermedios entre los primarios, perpendiculares a estos, se instalarán extintores de C02 de 2Kg. Estos extitores tiene un peso total de unos 8 Kg, aproximadamente. Se eligen estos para permitir que cualquier persona pueda utilizarlos y el peso de la solución no sea problema para aplicarlo. 
 
 
 Productos de extinción de incendios elegidos
@@ -108,4 +108,4 @@ Nota: no se incluye el sistema FM-200 al desconocer su precio.
 
 .. [#nota1] Más información sobre dicho estándar se puede obtener `aquí <https://ctech.ul.com/wp-content/uploads/sites/54/2017/07/WP_NFPA75FireProtectionSuppressionDataCenters_12_15.pdf>`_ y `aquí <https://web.archive.org/web/20211022182220/http://tmpccc.com/uploads/Laws/NFPA/A_NFPA75.pdf>`_
 .. [#nota2] En `este <https://www.datacenterdynamics.com/en/news/ovhcloud-goes-down-in-outage-affecting-global-backbone/>`_ artículo se puede obtener más información sobre el incendio que sufrió OVH.
-.. [#nota3] La información sobre precio y pesos de los extintores de CO2 se ha obtenido de `esta página <https://extintorescontraincendios.com/extintores-co2-10>`_.
+.. [#nota3] La información sobre precio y pesos de los extintores de CO\ :sub:`2`\ se ha obtenido de `esta página <https://extintorescontraincendios.com/extintores-co2-10>`_.
