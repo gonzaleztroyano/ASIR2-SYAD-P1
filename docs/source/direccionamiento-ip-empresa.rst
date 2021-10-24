@@ -80,3 +80,19 @@ En el caso de Carpet4You, se ha decicido utilizar el rango privado 10.0.0.0/8 pa
 
 Conectividad física para las sedes
 ===================================
+
+Conexión entre sedes
+--------------------
+
+.. raw:: html
+
+    <div style="position: relative; margin: 2em; padding-bottom: 5%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+       <a href="https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/docs/source/images/ASIR2.SYAD.P1.3.Mapa.svg" rel="noopener"><img src="https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/docs/source/images/ASIR2.SYAD.P1.3.Mapa.svg" alt="Mapa de Europa con las sedes y conexiones"></a>
+    </div>
+
+.. note::
+    El color rojo simboliza trabajadoras y trabajadores remotos. Las líneas discontínuas simbolizan conexiones utilizando infraestructura de Internet pública. Las líneas contínuas son líneas dedicadas.
+
+Para las conexiones entre sedes se contratan fibras oscuras con diferentes proveedores:
+ * Para la conexión entre Bajadoz (BJZ) y Bilbao (BIO) el proveedor es `Correos Telecom <https://www.correostelecom.com/servicios>`_.
+ * Para la conexión entre Bilbao (BIO) y Bruselas (BRU); así como entre Bruselas (BRU) y Bergen (BGO) está contratada con el proveedor `Colt <https://www.colt.net/es/product/dark-fibre/>`_.
