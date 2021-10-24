@@ -3,6 +3,7 @@ Proyecto integrador Seguridad y Alta Disponibilidad
 
 En esta página web se irán añadiendo los resúmenes de las tareas realizadas para el proyecto integrador de Seguridad y Alta Disponibilidad, en el curso de 2º ASIR.
 
+Puedes acceder a la **web de la empresa** desde `este enlace <https://carpet4you.site?utm_source=rtd>`_.
 
 .. note::
 
@@ -21,3 +22,4 @@ En esta página web se irán añadiendo los resúmenes de las tareas realizadas 
    seguridad-anti-catastrofes
    integridad-de-la-informacion
    criptografia
+   calculo-eleccion-sai
