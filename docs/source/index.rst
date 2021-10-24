@@ -13,7 +13,6 @@ Puedes acceder a la **web de la empresa** desde `este enlace <https://carpet4you
 --------
 
 .. toctree::
-   :maxdepth: 2
    introducción
    empresa-propuesta
    plano-cpd-bruselas
