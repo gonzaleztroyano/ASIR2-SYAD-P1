@@ -21,7 +21,7 @@ En este momento se estima que únicamente se está utilizando aproximadamente la
 
 Aunque estos racks tienen hasta 42U para el despliegue de equipos,se están utilizando 30, evitando situar los equipos en las posiciones inferiores para evitar que las trabajadoras y trabajadores tengan que agacharse y mantener posiciones poco ergonómicas. 
 
- .. note ::
+ .. important ::
     Por tanto tenemos 35 racks y 30 Us = 1050 U disponibles 
 
 No todos los equipos ocupan 1U, unos 300 aproximadamente ocupan 2U, los dedicados al almacenamiento en Hadoop. Los resultados son: 600U ocupadas por 300 equipos dedicados al almacenamiento, 350U con 350 equipos dedicados al procesamiento y 100U ocupadas por 100 equipos dedicados a la interconexión
@@ -33,7 +33,7 @@ En la elección de los dispositivos se ha tenido en cuenta la eficiencia y el co
 
 Se toma una media de 200W por equipo. Los switches y equipos de conectividad consumen menos que los equipos de almacenamiento, y estos a su vez menos que los equipos de procesamiento.
 
- .. note ::
+ .. important ::
 
     Tenemos por tanto 200W * 750 equipos = 150 000 W
 
@@ -59,6 +59,7 @@ Si se utilizara esta gama sería necesario instalarlos en una sala especialmente
  .. important ::
 
     Por tanto, calculamos que:
+    
     * 1h de actividad para un armario no crítico. Resistencia calculada de 200W * 30U = 6000W.  
     * 3h de actividad para un armario crítico. Resistencia calculada de 200W * 20U = 4000W.
 
@@ -91,7 +92,7 @@ En la siguiente tabla tenemos los detalles:
 +----------+----------+---------------+--------------+
 | SRT192BP |     5    |   1 905,75 €  |  9 528,75 €  |
 +----------+----------+---------------+--------------+
-|                                        16 093,00 € |
+|                           Coste total: 16 093,00 € |
 +----------------------------------------------------+
 
 
@@ -119,7 +120,7 @@ En la siguiente tabla tenemos los detalles:
 +----------+----------+---------------+--------------+
 | SRT192BP |     8    |   1 905,75 €  |  15 246,00 € |
 +----------+----------+---------------+--------------+
-|                                        21 810,25 € |
+|                           Coste total: 21 810,25 € |
 +----------------------------------------------------+
 
 .. rubric:: Notas al pie de página
@@ -127,4 +128,4 @@ En la siguiente tabla tenemos los detalles:
 .. [#nota1] Cada conjunto de 3 racks está identificado por un código único, que no solo lo identifica a nivel de CPD, sino de toda la empresa. De esta forma *S-BRU-2-C1* significa *Servidor, en CPD BRUselas, sala 2, sección C, conjunto 1*. En Bilbao la nomenclatura es similar, cambiando *BRU* por *BIO*, que es el distintivo del aeropuerto de la ciudad. 
 .. [#nota2] *Service Level Objective*, Objetivo de nivel de servicio. Lo que se espera que el servicio esté disponible.
 .. [#nota3] *Service Level Agreement*, Acuerdo de nivel de servicio. Aunque se utiliza en acuerdos comerciales, en Carpet4You la utilizamos para definir el mínimo de tiempo que debe estar completamente operativo el CPD.
--- [#nota4] En `esta página <https://www.aegps.com/en/technology/references/strato/>`_ se puede obtener la referencia del cliente.
+.. [#nota4] En `esta página <https://www.aegps.com/en/technology/references/strato/>`_ se puede obtener la referencia del cliente.
