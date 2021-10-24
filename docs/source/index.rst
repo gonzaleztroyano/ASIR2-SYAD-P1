@@ -13,15 +13,47 @@ Puedes acceder a la **web de la empresa** desde `este enlace <https://carpet4you
 --------
 
 .. toctree::
-
+   :maxdepth: 2
+   :caption: Presentación
    introducción
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Análisis y Diseño
    empresa-propuesta
    plano-cpd-bruselas
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: Seguridad
+   empresa-propuesta
+   plano-cpd-bruselas   
    control-de-acceso
    sistemas-anti-incendio
    seguridad-anti-catastrofes
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Integridad
    integridad-de-la-informacion
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Criptografía   
    criptografia
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Fallos de electricidad
    calculo-eleccion-sai
+
+.. toctree::
+   :maxdepth: 2
+   :caption: IP y direccionamiento
    direccionamiento-ip-empresa
+   configuracion-dominios
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Servicios
    servidor-ssh
