@@ -124,12 +124,14 @@ Configurar el sitio nuevo en Apache
 Creamos el archivo:
 
 .. code-block:: console
+
     user@server-carpet:~$ sudo nano /etc/apache2/sites-available/www.carpet4you.site.conf
 
 
 En dicho archivo, añadimos el siguiente texto:
 
 .. code-block:: console
+
     <VirtualHost *:443>
         ServerName www.carpet4you.site
         DocumentRoot /var/www/html
@@ -141,6 +143,7 @@ En dicho archivo, añadimos el siguiente texto:
 También debemos activar una serie de módulos y configuraciones
 
 .. code-block:: console
+
     user@server-carpet:~$ sudo a2enmod ssl
     user@server-carpet:~$ sudo a2enmod headers
     user@server-carpet:~$ sudo a2enconf ssl-params
@@ -164,12 +167,14 @@ Generar certificado AC y confianza
 Generar la clave privada de la Autoridad de Certificación. Nos solicitará una contraseña para protegerla. 
 
 .. code-block:: console
+
     user@server-carpet:~$ openssl genrsa -des3 -out CA_Carpet4You.key 2048
 
 
 Generamos el certificado raíz para nuestra AC:
 
 .. code-block:: console
+
     user@server-carpet:~$ openssl req -x509 -new -nodes -key CA_Carpet4You.key -sha256 -days 365 -out CA_Carpet4You.pem
 
 
@@ -220,6 +225,7 @@ Private key
 Crearemos nuestra clave privada para el servidor:
 
 .. code-block:: console
+
     user@server-carpet:~$ openssl genrsa -out www.carpet4you.site.key 2048
 
 
@@ -229,6 +235,7 @@ CSR
 Iniciamos una *Certificate Signing Request* (CSR):
 
 .. code-block:: console
+
     user@server-carpet:~$ openssl req -new -key www.carpet4you.site.key -out www.carpet4you.site.csr
 
 
@@ -240,6 +247,7 @@ Lo siguiente que haremos es crear el certificado utilizando la CSR, la clave pri
 En este archivo, que llamaremos *www.carpet4you.site.ext* añadiremos el siguiente contenido:
 
 .. code-block:: console
+
     authorityKeyIdentifier=keyid,issuer
     basicConstraints=CA:FALSE
     keyUsage = digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment
@@ -260,6 +268,7 @@ Generar certificado final
 Ahora tendremos varios archivos:
 
 .. code-block:: console
+
     user@server-carpet:~$ ll ww*
     -rw-rw-r-- 1 user user 1570 oct 24 21:30 www.carpet4you.site.crt
     -rw-rw-r-- 1 user user 1147 oct 24 21:21 www.carpet4you.site.csr
@@ -272,6 +281,7 @@ Utilizar certificado en Apache
 Modificamos el archivo */etc/apache2/sites-available/www.carpet4you.site.conf* para que pase a ser de la siguiente manera:
 
 .. code-block:: console
+    
     <VirtualHost *:443>
         ServerName www.carpet4you.site
         DocumentRoot /var/www/html
