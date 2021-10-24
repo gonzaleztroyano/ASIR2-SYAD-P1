@@ -91,7 +91,9 @@ Conexión entre sedes
     </div>
 
 .. note::
-    El color rojo simboliza trabajadoras y trabajadores remotos. Las líneas discontínuas simbolizan conexiones utilizando infraestructura de Internet pública. Las líneas contínuas son líneas dedicadas.
+    El color rojo simboliza trabajadoras y trabajadores remotos. 
+    Las líneas discontínuas simbolizan conexiones utilizando infraestructura de Internet pública. 
+    Las líneas contínuas son líneas dedicadas.
 
 Para las conexiones entre sedes se contratan fibras oscuras con diferentes proveedores:
  * Para la conexión entre Bajadoz (BJZ) y Bilbao (BIO) el proveedor es `Correos Telecom <https://www.correostelecom.com/servicios>`_.
