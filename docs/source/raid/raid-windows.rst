@@ -65,7 +65,8 @@ En el `siguiente vídeo <https://www.loom.com/embed/dbefee751fc94b9f8773d0ea2e74
 
 .. raw:: html
 
-    <div style="position: relative; padding-bottom: 68.5546875%; height: 0;"><iframe src="https://www.loom.com/embed/dbefee751fc94b9f8773d0ea2e74b2a1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+     <div style="position: relative; margin: 2em; padding-bottom: 5%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <div style="position: relative; padding-bottom: 68.5546875%; height: 0;"><iframe src="https://www.loom.com/embed/dbefee751fc94b9f8773d0ea2e74b2a1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     </div>
 
 
@@ -81,7 +82,8 @@ En el `siguiente vídeo <https://www.loom.com/embed/6726d53eb66c4530a9452854ef2b
 
 .. raw:: html
 
-    <div style="position: relative; padding-bottom: 68.5546875%; height: 0;"><iframe src="https://www.loom.com/embed/6726d53eb66c4530a9452854ef2b2f67" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+    <div style="position: relative; margin: 2em; padding-bottom: 5%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <div style="position: relative; padding-bottom: 68.5546875%; height: 0;"><iframe src="https://www.loom.com/embed/6726d53eb66c4530a9452854ef2b2f67" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     </div>
 
 
