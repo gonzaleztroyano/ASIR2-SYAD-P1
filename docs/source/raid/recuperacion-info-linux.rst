@@ -23,6 +23,8 @@ Al desconectar desde la interfaz de VirtualBox el disco vemos lo siguiente:
 
 
 .. code-block:: console
+    :emphasize-lines: 12, 25
+    :linenos: 
 
     user@server-carpet:~$ sudo mdadm --detail /dev/md2
     /dev/md2:
@@ -56,3 +58,59 @@ Al desconectar desde la interfaz de VirtualBox el disco vemos lo siguiente:
         -       0        0        1      removed
         2       8      112        2      active sync   /dev/sdh
         4       8      128        3      active sync   /dev/sdi
+
+
+Como podemos ver en las líneas 12 y 25 de la salida del comando anterior, el estado del raid es *degradado* y no se encuentra el disco 1, aparece como eliminado (*removed*).
+
+Recuperación de la información
+==============================
+
+Guardar la información del superbloque
+---------------------------------------
+
+Una de las acciones más útiles que podemos hacer antes de nada es guardar la información guardada en los superbloques del RAID en cada dispostivo antes de que el disco fallara.
+
+Para hacerlo podemos ejecutar el siguiente comando:
+
+.. code-block:: console
+    
+    user@server-carpet:~$ sudo mdadm --examine /dev/sdf >> raid.status
+    user@server-carpet:~$ sudo mdadm --examine /dev/sdh >> raid.status
+    user@server-carpet:~$ sudo mdadm --examine /dev/sdi >> raid.status
+
+
+Esta información puede sernos útil en futuros pasos. 
+
+Comprobar que los datos siguen siendo accesibles
+-------------------------------------------------
+
+Para hacerlo basta con navegar al punto de montaje del dispostivo RAID y listar o navegar por los archivos. Siempre teniendo en cuenta que cuánto menos modifiquemos, mejor.
+
+.. code-block:: console
+    user@server-carpet:~$ cd /mnt/md2/
+    user@server-carpet:/mnt/md2$ ll
+    total 23852
+    drwxr-xr-x 3 user user    4096 oct 25 12:02 ./
+    drwxr-xr-x 5 root root    4096 oct 25 11:43 ../
+    -rw-rw-r-- 1 user user       0 oct 25 12:02 el_quijote.txt
+    -rw-rw-r-- 1 user user 1060259 oct 25 12:02 el_quijote.txt.1
+    -rw-rw-r-- 1 user user 1060259 oct 25 12:02 el_quijote.txt.10
+    -rw-rw-r-- 1 user user 1060259 oct 25 12:02 el_quijote.txt.11
+    -rw-rw-r-- 1 user user 1060259 oct 25 12:02 el_quijote.txt.12
+    [...]
+
+
+Añadir nuevo disco a RAID
+---------------------------
+
+.. code-block:: console
+    
+    user@server-carpet:~$ sudo mdadm -–manage /dev/md2 -–add /dev/sdg
+
+Al hacerlo veremos como se durante unos segundos el sistema se recompondrá, replicando los datos entre los discos. 
+
+.. raw:: html
+
+    <div style="position: relative; margin: 2em; padding-bottom: 5%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+       <img src="https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/docs/source/images/raid/raid5.png" alt="Imagen en la que se pueden ver cómo se recomponen los discos">
+    </div>

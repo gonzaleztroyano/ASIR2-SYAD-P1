@@ -63,8 +63,8 @@ Puedes acceder a la **web de la empresa** desde `este enlace <https://carpet4you
    :maxdepth: 2
    :caption: Servicios
 
-   servidor-ssh
-   servidor-web
+   servicio/servidor-ssh
+   servicio/servidor-web
 
 .. toctree::
    :maxdepth: 2
@@ -73,3 +73,10 @@ Puedes acceder a la **web de la empresa** desde `este enlace <https://carpet4you
    raid/raid-windows
    raid/raid-linux
    raid/recuperacion-info-linux
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Servidor NAS
+
+   servidor-nas/descargar-omv
+   servidor-nas/instalar-omv
