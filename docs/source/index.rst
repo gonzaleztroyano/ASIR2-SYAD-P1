@@ -15,7 +15,7 @@ Puedes acceder a la **web de la empresa** desde `este enlace <https://carpet4you
 .. toctree::
    :maxdepth: 2
    :caption: Presentación
-   
+
    introducción
 
 .. toctree::
@@ -49,7 +49,8 @@ Puedes acceder a la **web de la empresa** desde `este enlace <https://carpet4you
    :maxdepth: 2
    :caption: Fallos de electricidad
 
-   calculo-eleccion-sai
+   calculo-sai
+   eleccion-sai
 
 .. toctree::
    :maxdepth: 2
@@ -63,3 +64,4 @@ Puedes acceder a la **web de la empresa** desde `este enlace <https://carpet4you
    :caption: Servicios
 
    servidor-ssh
+   servidor-web
