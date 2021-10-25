@@ -66,11 +66,11 @@ Creación del array
 .. code-block:: console
 
     user@server-carpet:~$ sudo mdadm --create --verbose \ 
-    /dev/md0 --level=0 --raid-devices=2 /dev/sdb /dev/sdc
+    /dev/raid0-carpet4you --level=0 --raid-devices=2 /dev/sdb /dev/sdc
 
     mdadm: chunk size defaults to 512K
     mdadm: Defaulting to version 1.2 metadata
-    mdadm: array /dev/md0 started.
+    mdadm: array /dev/raid0-carpet4you started.
 
 
 Las opciones de este comando son:
@@ -78,7 +78,7 @@ Las opciones de este comando son:
 * **mdadm**, es el comando en sí, nos sirve para gestionar toda la configuración relativa a RAIDs. 
 * **--create**, indicamos a *mdadm* que queremos crear uno nuevo, puesto que también podríamos borrarlos o modificarlos. 
 * **--verbose**, para que nos muestre detalles sobre las acciones que está realizando. 
-* **/dev/md0**, este es el dispositivo de bloque que vamos a crear.
+* **/dev/raid0-carpet4you**, este es el dispositivo de bloque que vamos a crear.
 * **/--level=0**, nivel de RAID con el que vamos a configurar el nuevo dispositivo lógico. 
 * **--raid-devices=2**, número de dispositivos que vamos a agregar al RAID. 
 * **/dev/sdb /dev/sdc**, los dispositivos que vamos a utilizar. 
@@ -90,7 +90,7 @@ Si ahora vemos la información de *mdstat* veremos el nuevo dispositivo creado.
 
     user@server-carpet:~$ cat /proc/mdstat
     Personalities : [linear] [multipath] [raid0] [raid1] [raid6] [raid5] [raid4] [raid10] 
-    md0 : active raid0 sdc[1] sdb[0]
+    raid0-carpet4you : active raid0 sdc[1] sdb[0]
         10475520 blocks super 1.2 512k chunks
     unused devices: <none>
 
@@ -103,7 +103,7 @@ Creamos el sistema de archivos en el nodo RAID;
 
 .. code-block:: console
 
-    user@server-carpet:~$ sudo mkfs.ext4 -F /dev/md0
+    user@server-carpet:~$ sudo mkfs.ext4 -F /dev/raid0-carpet4you
         mke2fs 1.44.1 (24-Mar-2018)
         Creating filesystem with 2618880 4k blocks and 655360 inodes
         Filesystem UUID: 0d3d57e0-8bf2-4d1e-8289-c3996ecdf606
@@ -121,14 +121,14 @@ Creamos la carpeta donde montaremos el sistema de archivos:
 
 .. code-block:: console
 
-    user@server-carpet:~$ sudo mkdir -p /mnt/md0
+    user@server-carpet:~$ sudo mkdir -p /mnt/raid0-carpet4you
 
 
 Montamos el dispositivo RAID en nuestro sistema de archivos:
 
 .. code-block:: console
 
-    user@server-carpet:~$ sudo mount /dev/md0 /mnt/md0
+    user@server-carpet:~$ sudo mount /dev/raid0-carpet4you /mnt/raid0-carpet4you
 
 
 Comprobaciones
@@ -138,9 +138,9 @@ Para ver el sistema de archivos resultante podemos ejecutar el siguiente comando
 
 .. code-block:: console
 
-    user@server-carpet:~$ df -h /dev/md0 
+    user@server-carpet:~$ df -h /dev/raid0-carpet4you 
     Filesystem      Size  Used Avail Use% Mounted on
-    /dev/md0        9,8G   37M  9,3G   1% /mnt/md0
+    /dev/raid0-carpet4you        9,8G   37M  9,3G   1% /mnt/raid0-carpet4you
 
 
 Automontaje en inicio
@@ -151,7 +151,7 @@ Para estar seguros de que al reiniciar el equipo el sistema reconoce el RAID con
 .. code-block:: console
 
     user@server-carpet:~$ sudo mdadm --detail --scan | sudo tee -a /etc/mdadm/mdadm.conf
-    ARRAY /dev/md0 metadata=1.2 name=server-carpet:0 UUID=5f784e4c:b5877144:918ac136:c341cb10
+    ARRAY /dev/raid0-carpet4you metadata=1.2 name=server-carpet:0 UUID=5f784e4c:b5877144:918ac136:c341cb10
 
 
 También debemos actualizar ``initframs``, que es el archivo de RAM que se carga durante el arranque del sistema:
@@ -165,7 +165,7 @@ Por último, debemos actualizar el archivo ``/etc/fstab``:
 
 .. code-block:: console
     
-    user@server-carpet:~$ echo '/dev/md0 /mnt/md0 ext4 defaults,nofail,discard 0 0' | sudo tee -a /etc/fstab
+    user@server-carpet:~$ echo '/dev/raid0-carpet4you /mnt/raid0-carpet4you ext4 defaults,nofail,discard 0 0' | sudo tee -a /etc/fstab
 
 
 RAID1 - Espejo
@@ -177,11 +177,11 @@ Creación del array
 .. code-block:: console
 
     user@server-carpet:~$ sudo mdadm --create --verbose \
-    /dev/md0 --level=1 --raid-devices=2 /dev/sdd /dev/sde
+    /dev/raid0-carpet4you --level=1 --raid-devices=2 /dev/sdd /dev/sde
 
 
     mdadm: Defaulting to version 1.2 metadata
-    mdadm: array /dev/md1 started.
+    mdadm: array /dev/raid1-carpet4you started.
 
 
 Las opciones de este comando son:
@@ -189,7 +189,7 @@ Las opciones de este comando son:
 * **mdadm**, es el comando en sí, nos sirve para gestionar toda la configuración relativa a RAIDs. 
 * **--create**, indicamos a *mdadm* que queremos crear uno nuevo, puesto que también podríamos borrarlos o modificarlos. 
 * **--verbose**, para que nos muestre detalles sobre las acciones que está realizando. 
-* **/dev/md1**, este es el dispositivo de bloque que vamos a crear.
+* **/dev/raid1-carpet4you**, este es el dispositivo de bloque que vamos a crear.
 * **/--level=1**, nivel de RAID con el que vamos a configurar el nuevo dispositivo lógico. 
 * **--raid-devices=2**, número de dispositivos que vamos a agregar al RAID. 
 * **/dev/sdd /dev/sde**, los dispositivos que vamos a utilizar. 
@@ -200,10 +200,10 @@ Si ahora vemos la información de *mdstat* veremos el nuevo dispositivo creado.
 .. code-block:: console
 
     Personalities : [linear] [multipath] [raid0] [raid1] [raid6] [raid5] [raid4] [raid10] 
-    md1 : active raid1 sde[1] sdd[0]
+    raid1-carpet4you : active raid1 sde[1] sdd[0]
       5237760 blocks super 1.2 [2/2] [UU]
       
-    md0 : active raid0 sdc[1] sdb[0]
+    raid0-carpet4you : active raid0 sdc[1] sdb[0]
       10475520 blocks super 1.2 512k chunks
       
     unused devices: <none>
@@ -215,7 +215,7 @@ Creamos el sistema de archivos en el nodo RAID;
 
 .. code-block:: console
 
-    user@server-carpet:~$ sudo mkfs.ext4 -F /dev/md1
+    user@server-carpet:~$ sudo mkfs.ext4 -F /dev/raid1-carpet4you
         mke2fs 1.44.1 (24-Mar-2018)
         Creating filesystem with 1309440 4k blocks and 327680 inodes
         Filesystem UUID: 5f929cc1-7c5e-4107-a71a-e9cbb296c5f3
@@ -233,14 +233,14 @@ Creamos la carpeta donde montaremos el sistema de archivos:
 
 .. code-block:: console
 
-    user@server-carpet:~$ sudo mkdir -p /mnt/md1
+    user@server-carpet:~$ sudo mkdir -p /mnt/raid1-carpet4you
 
 
 Montamos el dispositivo RAID en nuestro sistema de archivos:
 
 .. code-block:: console
 
-    user@server-carpet:~$ sudo mount /dev/md1 /mnt/md1
+    user@server-carpet:~$ sudo mount /dev/raid1-carpet4you /mnt/raid1-carpet4you
 
 
 Comprobaciones
@@ -250,9 +250,9 @@ Para ver el sistema de archivos resultante podemos ejecutar el siguiente comando
 
 .. code-block:: console
 
-    user@server-carpet:~$ df -h /dev/md1
+    user@server-carpet:~$ df -h /dev/raid1-carpet4you
     Filesystem      Size  Used Avail Use% Mounted on
-    /dev/md1        4,9G   20M  4,6G   1% /mnt/md1
+    /dev/raid1-carpet4you        4,9G   20M  4,6G   1% /mnt/raid1-carpet4you
 
 Automontaje en inicio
 ----------------------
@@ -262,9 +262,9 @@ Para estar seguros de que al reiniciar el equipo el sistema reconoce el RAID con
 .. code-block:: console
 
     user@server-carpet:~$ sudo mdadm --detail --scan | sudo tee -a /etc/mdadm/mdadm.conf
-    ARRAY /dev/md0 metadata=1.2 name=server-carpet:0 UUID=5f784e4c:b5877144:918ac136:c341cb10
+    ARRAY /dev/raid0-carpet4you metadata=1.2 name=server-carpet:0 UUID=5f784e4c:b5877144:918ac136:c341cb10
 
-    ARRAY /dev/md1 metadata=1.2 name=server-carpet:1 UUID=089e4962:1c5da6a4:6fd12683:de775a6c
+    ARRAY /dev/raid1-carpet4you metadata=1.2 name=server-carpet:1 UUID=089e4962:1c5da6a4:6fd12683:de775a6c
 
 
 
@@ -279,7 +279,7 @@ Por último, debemos actualizar el archivo ``/etc/fstab``:
 
 .. code-block:: console
     
-    user@server-carpet:~$ echo '/dev/md1 /mnt/md1 ext4 defaults,nofail,discard 0 0' | sudo tee -a /etc/fstab
+    user@server-carpet:~$ echo '/dev/raid1-carpet4you /mnt/raid1-carpet4you ext4 defaults,nofail,discard 0 0' | sudo tee -a /etc/fstab
 
 
 RAID5 - Espejo
@@ -291,14 +291,14 @@ Creación del array
 .. code-block:: console
 
     user@server-carpet:~$ sudo mdadm --create --verbose \
-    /dev/md2 --level=5 --raid-devices=4 /dev/sdf /dev/sdg /dev/sdh /dev/sdi
+    /dev/raid5-carpet4you --level=5 --raid-devices=4 /dev/sdf /dev/sdg /dev/sdh /dev/sdi
 
     mdadm: layout defaults to left-symmetric
     mdadm: layout defaults to left-symmetric
     mdadm: chunk size defaults to 512K
     mdadm: size set to 5237760K
     mdadm: Defaulting to version 1.2 metadata
-    mdadm: array /dev/md2 started.
+    mdadm: array /dev/raid5-carpet4you started.
 
 
 
@@ -307,7 +307,7 @@ Las opciones de este comando son:
 * **mdadm**, es el comando en sí, nos sirve para gestionar toda la configuración relativa a RAIDs. 
 * **--create**, indicamos a *mdadm* que queremos crear uno nuevo, puesto que también podríamos borrarlos o modificarlos. 
 * **--verbose**, para que nos muestre detalles sobre las acciones que está realizando. 
-* **/dev/md2**, este es el dispositivo de bloque que vamos a crear.
+* **/dev/raid5-carpet4you**, este es el dispositivo de bloque que vamos a crear.
 * **/--level=5**, nivel de RAID con el que vamos a configurar el nuevo dispositivo lógico. 
 * **--raid-devices=4**, número de dispositivos que vamos a agregar al RAID. 
 * **/dev/sdf /dev/sdg /dev/sdh /dev/sdi**, los dispositivos que vamos a utilizar. 
@@ -318,14 +318,14 @@ Si ahora vemos la información de *mdstat* veremos el nuevo dispositivo creado.
 .. code-block:: console
 
     Personalities : [linear] [multipath] [raid0] [raid1] [raid6] [raid5] [raid4] [raid10] 
-    md2 : active raid5 sdi[4] sdh[2] sdg[1] sdf[0]
+    raid5-carpet4you : active raid5 sdi[4] sdh[2] sdg[1] sdf[0]
         15713280 blocks super 1.2 level 5, 512k chunk, algorithm 2 [4/3] [UUU_]
         [=>...................]  recovery =  6.6% (350524/5237760) finish=4.8min speed=16691K/sec
         
-    md1 : active raid1 sde[1] sdd[0]
+    raid1-carpet4you : active raid1 sde[1] sdd[0]
         5237760 blocks super 1.2 [2/2] [UU]
         
-    md0 : active raid0 sdc[1] sdb[0]
+    raid0-carpet4you : active raid0 sdc[1] sdb[0]
         10475520 blocks super 1.2 512k chunks
         
     unused devices: <none>
@@ -338,7 +338,7 @@ Creamos el sistema de archivos en el nodo RAID;
 
 .. code-block:: console
 
-    user@server-carpet:~$ user@server-carpet:~$ sudo mkfs.ext4 -F /dev/md2
+    user@server-carpet:~$ user@server-carpet:~$ sudo mkfs.ext4 -F /dev/raid5-carpet4you
         mke2fs 1.44.1 (24-Mar-2018)
         Creating filesystem with 3928320 4k blocks and 983040 inodes
         Filesystem UUID: fb134669-8c3e-42a6-b406-53f1a32c91cb
@@ -355,14 +355,14 @@ Creamos la carpeta donde montaremos el sistema de archivos:
 
 .. code-block:: console
 
-    user@server-carpet:~$ sudo mkdir -p /mnt/md2
+    user@server-carpet:~$ sudo mkdir -p /mnt/raid5-carpet4you
 
 
 Montamos el dispositivo RAID en nuestro sistema de archivos:
 
 .. code-block:: console
 
-    user@server-carpet:~$ sudo mount /dev/md2 /mnt/md2
+    user@server-carpet:~$ sudo mount /dev/raid5-carpet4you /mnt/raid5-carpet4you
 
 
 Comprobaciones
@@ -372,9 +372,9 @@ Para ver el sistema de archivos resultante podemos ejecutar el siguiente comando
 
 .. code-block:: console
 
-    user@server-carpet:~$ df -h /dev/md2
+    user@server-carpet:~$ df -h /dev/raid5-carpet4you
     Filesystem      Size  Used Avail Use% Mounted on
-    /dev/md2         15G   41M   14G   1% /mnt/md2
+    /dev/raid5-carpet4you         15G   41M   14G   1% /mnt/raid5-carpet4you
 
 
 Automontaje en inicio
@@ -385,11 +385,11 @@ Para estar seguros de que al reiniciar el equipo el sistema reconoce el RAID con
 .. code-block:: console
 
     user@server-carpet:~$ sudo mdadm --detail --scan | sudo tee -a /etc/mdadm/mdadm.conf
-    ARRAY /dev/md0 metadata=1.2 name=server-carpet:0 
+    ARRAY /dev/raid0-carpet4you metadata=1.2 name=server-carpet:0 
         UUID=5f784e4c:b5877144:918ac136:c341cb10
-    ARRAY /dev/md1 metadata=1.2 name=server-carpet:1 
+    ARRAY /dev/raid1-carpet4you metadata=1.2 name=server-carpet:1 
         UUID=089e4962:1c5da6a4:6fd12683:de775a6c
-    ARRAY /dev/md2 metadata=1.2 name=server-carpet:2 
+    ARRAY /dev/raid5-carpet4you metadata=1.2 name=server-carpet:2 
         UUID=dc70161b:a4c632d6:fee7cbaa:33c7f703
 
 
@@ -406,7 +406,7 @@ Por último, debemos actualizar el archivo ``/etc/fstab``:
 
 .. code-block:: console
     
-    user@server-carpet:~$ echo '/dev/md2 /mnt/md2 ext4 defaults,nofail,discard 0 0' | sudo tee -a /etc/fstab
+    user@server-carpet:~$ echo '/dev/raid5-carpet4you /mnt/raid5-carpet4you ext4 defaults,nofail,discard 0 0' | sudo tee -a /etc/fstab
 
 
 Ver detalles de un RAID
@@ -416,8 +416,8 @@ Para ver los detalles de un RAID en Ubuntu podemos utilizar el siguiente comando
 
 .. code-block:: console
 
-    user@server-carpet:~$ sudo mdadm --detail /dev/md2
-    /dev/md2:
+    user@server-carpet:~$ sudo mdadm --detail /dev/raid5-carpet4you
+    /dev/raid5-carpet4you:
             Version : 1.2
         Creation Time : Mon Oct 25 11:41:35 2021
             Raid Level : raid5
