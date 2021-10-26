@@ -1,6 +1,6 @@
-**********************************
-Direccionamiento IP de la empresa
-**********************************
+*******************************************
+Direccionamiento IP de la empresa (general)
+********************************************
 
 Rangos de IP asignados
 =======================
@@ -50,22 +50,22 @@ En el caso de Carpet4You, se ha decicido utilizar el rango privado 10.0.0.0/8 pa
 | **10.201.0.0/16**        | **Sede Badajoz (B1)**                           |
 |  * 10.201.0XX.0/24       |  * Rangos utilizados para Management            |
 |  * 10.201.1XX.0/24       |  * Rangos utilizados para los diferentes dptos. |
-|  * 10.201.201.XXX/32     |  * IP Gateways, diferentes sedes                |
+|  * 10.201.2XX.0/24       |  * Direcciones internas para servidores         |
 +--------------------------+-------------------------------------------------+
 | **10.202.0.0/16**        | **Sede Bilbao (B2)**                            |
 |  * 10.202.0XX.0/24       |  * Rangos utilizados para Management            |
 |  * 10.202.1XX.0/24       |  * Rangos utilizados para los diferentes dptos. |
-|  * 10.202.202.XXX/32     |  * IP Gateways, diferentes sedes                |
+|  * 10.202.2XX.0/24       |  * Direcciones internas para servidores         |
 +--------------------------+-------------------------------------------------+
 | **10.203.0.0/16**        | **Sede Bruselas (B3)**                          |
 |  * 10.203.0XX.0/24       |  * Rangos utilizados para Management            |
 |  * 10.203.1XX.0/24       |  * Rangos utilizados para los diferentes dptos. |
-|  * 10.203.203.XXX/32     |  * IP Gateways, diferentes sedes                |
+|  * 10.203.2XX.0/24       |  * Direcciones internas para servidores         |
 +--------------------------+-------------------------------------------------+
 | **10.204.0.0/16**        | **Sede Bergen (B4)**                            |
 |  * 10.204.0XX.0/24       |  * Rangos utilizados para Management            |
 |  * 10.204.1XX.0/24       |  * Rangos utilizados para los diferentes dptos. |
-|  * 10.204.204.XXX/32     |  * IP Gateways, diferentes sedes                |
+|  * 10.204.2XX.0/24       |  * Direcciones internas para servidores         |
 +--------------------------+-------------------------------------------------+
 | **10.205.0.0/16**        | **Trabajadores Remotos**                        |
 |  * 10.205.1.0/24         |  * Trabajadores Remotos en Rusia                |

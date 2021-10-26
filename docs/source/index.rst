@@ -57,6 +57,7 @@ Puedes acceder a la **web de la empresa** desde `este enlace <https://carpet4you
    :caption: IP y direccionamiento
 
    direccionamiento-ip-empresa
+   direccionamiento-ip-sede
    configuracion-dominios
 
 .. toctree::
