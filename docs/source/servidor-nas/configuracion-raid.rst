@@ -25,7 +25,10 @@ RAID 1
 Para crear el RAID:
 
 
-(Aquí iría el vídeo 1 de verdad)
+.. raw:: html
+    
+    <div style="position: relative; padding-bottom: 61.1328125%; height: 0;"><iframe src="https://www.loom.com/embed/eb3d21be6cdc4f9aadaae1c47ef8a53e" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 
 Crear el sistema de archivos:
 
