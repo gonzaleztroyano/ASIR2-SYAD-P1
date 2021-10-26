@@ -112,5 +112,5 @@ Si ahora accedemos a la web podremos ver nuestro certificado:
 .. raw:: html
 
     <div style="position: relative; margin: 2em; padding-bottom: 5%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-       <img src="https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/docs/source/images/nas/nas_24.png" alt="">
+       <img src="https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/docs/source/images/nas/nas24.png" alt="">
     </div>
