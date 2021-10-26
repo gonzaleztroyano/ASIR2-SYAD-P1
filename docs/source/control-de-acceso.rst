@@ -94,9 +94,18 @@ Se desconoce el precio de dicho sistema, al no ser público.
 
 Sistema de prevención de intrusión exterior
 ============================================
+
 Para prevenir el acceso desde el exterior se combinan diferentes medidas de seguridad. 
- * Por un lado, 
+ * Por un lado, todo el recinto se encuntra vallado perimetramente con dos líneas de 2 metros de altura. 
+ * En estas vallas instaladas alrededor del centro se han instalado carteles que indican que está prohibido el paso a la propiedad. 
+ * Se han instalado detectores de movimiento que son activadas cuando cae la noche de forma automática. 
+ * Para la entrada de vehículos se han instalado bolardos automáticos homologados para evitar la intrusión de camión a 90 km/h de forma directa. Estos se accionan desde el puesto de control 1. 
 
 Vigilancia perimetral y control interior
 =========================================
 
+* El personal de control del acceso 1 está encargado de la vigilancia exterior, día y de noche.
+* Se realizan periódicamente revisiones alrededor de las zonas exteriores del centro para controlar que no se han provocado daños al vallado ni producido incidencias que puedan afectar a la continuidad del centro y la operativa de la empresa. 
+* En el puesto de control 1 se localiza, como mínimo un agente de seguridad. Si bien, como se ha comentado anteriormente, son contratados directamente por la empresa, este personal NO tiene acceso a las salas de proceso de datos. 
+* Por seguridad, tampoco tienen acceso a la sala de Administración y Control directamente. Sí puede ser permitida la entrada por la empleada o el empleado de mayor rango del centro en un momento dado. 
+* En caso de necesidad máxima otra empleada o empleado de una sede distinta, con rango elevado, puede habilitar remotamente el acceso. 

@@ -80,3 +80,4 @@ Puedes acceder a la **web de la empresa** desde `este enlace <https://carpet4you
 
    servidor-nas/descargar-omv
    servidor-nas/instalar-omv
+   servidor-nas/configuracion-raid
