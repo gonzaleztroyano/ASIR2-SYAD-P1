@@ -75,7 +75,7 @@ Si ahora navegamos hasta la dirección nas.corp.carpet4you.site veremos el panel
 .. raw:: html
 
     <div style="position: relative; margin: 2em; padding-bottom: 5%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-       <img src="https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/docs/source/images/nas/nas_22.png" alt="Imagen animada en la que podemos ver, pantalla a pantalla, cómo es el proceso de instalación del SO OpenMediaVault">
+       <img src="https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/docs/source/images/nas/nas22.png" alt="Imagen animada en la que podemos ver, pantalla a pantalla, cómo es el proceso de instalación del SO OpenMediaVault">
     </div>
 
 
@@ -91,7 +91,7 @@ Para cambiarlo:
 .. raw:: html
 
     <div style="position: relative; margin: 2em; padding-bottom: 5%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-       <img src="https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/docs/source/images/nas/nas_23.png" alt="">
+       <img src="https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/docs/source/images/nas/nas23.png" alt="">
     </div>
 
 
@@ -103,7 +103,7 @@ Para generar el certificado SSL y utilizarlo en la web debemos seguir los pasos 
 .. raw:: html
 
     <div style="position: relative; margin: 2em; padding-bottom: 5%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-       <div style="position: relative; padding-bottom: 61.1328125%; height: 0;"><iframe src="https://www.loom.com/embed/2ca8a17c02a64444b19793560afb7d63" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div></div>
+       <div style="position: relative; padding-bottom: 61.1328125%; height: 0;"><iframe src="https://www.loom.com/embed/2ca8a17c02a64444b19793560afb7d63" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
     </div>
 
 
