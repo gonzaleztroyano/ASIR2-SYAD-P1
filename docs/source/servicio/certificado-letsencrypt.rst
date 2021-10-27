@@ -9,7 +9,7 @@ Seleccionar dominios
 
 Lo primero que debemos hacer es seleccionar para qué dominios vamos a generar el/los certificados. Debemos tener en cuenta que Let's Encrypt solo ofrece certificados *DV*, *Domain Validated*, en inglés.
 
-En nuestro caso serán dos los dominios para los que solicitaremos el certificado: ``nas.corp.carpet4you.site`` y ``www.carpet4you.site``
+En nuestro caso serán dos los dominios para los que solicitaremos el certificado: ``nas.corp.carpet4you.site``, ``cloud.carpet4you.site``, ``ftp.corp.carpet4you.site`` y ``www.carpet4you.site``. 
 
 Instalar utilidad
 ==================

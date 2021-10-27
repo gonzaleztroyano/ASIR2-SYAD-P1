@@ -56,7 +56,7 @@ No cambiamos ningún parámetro más. Hacemos clic en Save y aplicamos los cambi
 Acceder a la carpeta compartida
 ================================
 
-Desde nuestra máquina escribimos ``smb:nas.corp.carpet4you.site``.
+Desde nuestra máquina escribimos ``smb://nas.corp.carpet4you.site``.
 
 Nos pedirá el usuario y contraseña. 
 
