@@ -62,10 +62,13 @@ Puedes acceder a la **web de la empresa** desde `este enlace <https://carpet4you
 
 .. toctree::
    :maxdepth: 2
-   :caption: Servicios
+   :caption: Servicios y certificados
 
    servicio/servidor-ssh
    servicio/servidor-web
+   servicio/convertirnos-ac
+   servicio/certificado-letsencrypt
+   servidor-nas/importar-certificado
 
 .. toctree::
    :maxdepth: 2
@@ -82,3 +85,4 @@ Puedes acceder a la **web de la empresa** desde `este enlace <https://carpet4you
    servidor-nas/descargar-omv
    servidor-nas/instalar-omv
    servidor-nas/configuracion-raid
+   servidor-nas/servicio-smb-cifs

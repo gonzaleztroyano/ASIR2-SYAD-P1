@@ -46,7 +46,7 @@ Por comodidad, trabajaremos con redes /24. Entendemos como *Management* las dire
 Las VLAN definidas para management son:
 
  * **VLAN10**, rango IP 10.203.010.0/24. En esta red se incluirán los dispositivos de red. 
- * **VLAN11-20, rangos IP 10.203.011.0/24 - 10.203.020.0/24. Se incluirán en estos rangos los teléfonos VoIP. Se reservará un subrango para cada departamento. 
+ * **VLAN11-20**, rangos IP 10.203.011.0/24 - 10.203.020.0/24. Se incluirán en estos rangos los teléfonos VoIP. Se reservará un subrango para cada departamento. 
  * **VLAN25**, rango IP 10.203.025.0/24. Se incluirán en esta red el hardware de control de acceso. 
  * **VLAN30**, rango IP 10.203.030.0/24. Se inclurán en este rango de IP las cámaras de seguridad. 
  * **VLAN50**, rango IP 10.203.050.0/24. A este rango pertenecerán los dispositivos de casting hacia TV y proyectores con capacidad inalámbrica.

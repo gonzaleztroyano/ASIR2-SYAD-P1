@@ -62,8 +62,8 @@ Para crear un usuario seguimos los siguientes pasos:
 2. Hacemos clic, en el menú superior, en la opción *Add*.
 3. Rellenamos los datos necesarios para la creación del usuario:   
     3.1. Configuramos el nombre para el usuario
-    3.2. Escribimos un correo electrónico para el usaurio
-    3.3. Definimos una contraseña (*Clave_00* en nuestro caso) para el usaurio.
+    3.2. Escribimos un correo electrónico para el usuario
+    3.3. Definimos una contraseña (*Clave_00* en nuestro caso) para el usuario.
     3.4. Definimos una *shell* para nuestro usuario. Como no queremos que pueda iniciar sesión mediante SSH seleccionamos ``/usr/sbin/nologin`` .
 4. Hacemos clic en *Save*. Aplicamos los cambios.
 
