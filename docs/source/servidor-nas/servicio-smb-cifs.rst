@@ -60,10 +60,24 @@ Desde nuestra máquina escribimos ``smb://nas.corp.carpet4you.site``.
 
 Nos pedirá el usuario y contraseña. 
 
-
-
 .. raw:: html
 
     <div style="position: relative; margin: 2em; padding-bottom: 5%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
        <img src="https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/docs/source/images/nas/nas28.png" alt="Captura de pantalla durante la importación del certificado.">
+    </div>
+
+En Windows, podemos introducir ``\\nas.corp.carpet4you.site`` en la barra del explorador de archivos para acceder a la carpeta. 
+
+Nos pedirá las credenciales:
+
+.. raw:: html
+
+    <div style="position: relative; margin: 2em; padding-bottom: 5%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+       <img src="https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/docs/source/images/nas/nas29.png" alt="Captura de pantalla pidiendo credenciales.">
+    </div>
+
+.. raw:: html
+
+    <div style="position: relative; margin: 2em; padding-bottom: 5%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+       <img src="https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/docs/source/images/nas/nas30.png" alt="Captura de pantalla con la carpeta compartida.">
     </div>

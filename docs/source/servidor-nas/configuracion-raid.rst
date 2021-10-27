@@ -58,14 +58,14 @@ Crear usuario
 
 Para crear un usuario seguimos los siguientes pasos:
 
-1. Navegamos desde el menú lateral hasta *Users*
-2. Hacemos clic, en el menú superior, en la opción *Add*.
-3. Rellenamos los datos necesarios para la creación del usuario:   
-    3.1. Configuramos el nombre para el usuario
-    3.2. Escribimos un correo electrónico para el usuario
-    3.3. Definimos una contraseña (*Clave_00* en nuestro caso) para el usuario.
-    3.4. Definimos una *shell* para nuestro usuario. Como no queremos que pueda iniciar sesión mediante SSH seleccionamos ``/usr/sbin/nologin`` .
-4. Hacemos clic en *Save*. Aplicamos los cambios.
+#. Navegamos desde el menú lateral hasta *Users*
+#. Hacemos clic, en el menú superior, en la opción *Add*.
+#. Rellenamos los datos necesarios para la creación del usuario:   
+    #. Configuramos el nombre para el usuario
+    #. Escribimos un correo electrónico para el usuario
+    #. Definimos una contraseña (*Clave_00* en nuestro caso) para el usuario.
+    #. Definimos una *shell* para nuestro usuario. Como no queremos que pueda iniciar sesión mediante SSH seleccionamos ``/usr/sbin/nologin`` .
+#. Hacemos clic en *Save*. Aplicamos los cambios.
 
 
 
@@ -74,8 +74,8 @@ Configurar la carpeta *home*
 
 Debemos indicar a OpenMediaVault dónde se van a guardar los datos del *home* de los usuarios. Para hacerlo:
 
-1. Navegamos desde el menú lateral hasta *Users*
-2. En la barra superior seleccionamos *Settings*
-3. Aquí marcamos *Enable*
-4. Seleccionamos la carpeta compartida *home* que hemos creado anteriormente.
-5. Hacemos clic en *Save*. Aplicamos los cambios.
+#. Navegamos desde el menú lateral hasta *Users*
+#. En la barra superior seleccionamos *Settings*
+#. Aquí marcamos *Enable*
+#. Seleccionamos la carpeta compartida *home* que hemos creado anteriormente.
+#. Hacemos clic en *Save*. Aplicamos los cambios.

@@ -86,3 +86,4 @@ Puedes acceder a la **web de la empresa** desde `este enlace <https://carpet4you
    servidor-nas/instalar-omv
    servidor-nas/configuracion-raid
    servidor-nas/servicio-smb-cifs
+   servidor-nas/servicio-nfs
