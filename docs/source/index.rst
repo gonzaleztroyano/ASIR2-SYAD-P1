@@ -10,34 +10,52 @@ Puedes acceder a la **web de la empresa** desde `este enlace <https://carpet4you
 
    Este repositorio está todavía en desarrollo
 
-Índice
---------
+
 
 Presentación
 -------------
 .. toctree::
    :maxdepth: 2
+   :hidden:
    :caption: Presentación
 
    introducción
 
+1. :doc:`introducción`
+
 Análisis y Diseño
---------------
+------------------
 
 .. toctree::
    :maxdepth: 2
+   :hidden:
    :caption: Análisis y Diseño
 
    empresa-propuesta
    plano-cpd-bruselas
 
+2.1. :doc:`empresa-propuesta`
+2.2  :doc:`plano-cpd-bruselas`
+
+
+Seguridad
+---------
+
+
 .. toctree::
    :maxdepth: 2
+   :hidden:
    :caption: Seguridad
   
    control-de-acceso
    sistemas-anti-incendio
    seguridad-anti-catastrofes
+
+3.1 :doc:`control-de-acceso`
+3.2 :doc:`sistemas-anti-incendio`
+3.2 :doc:`seguridad-anti-catastrofes`
+
+
 
 .. toctree::
    :maxdepth: 2
