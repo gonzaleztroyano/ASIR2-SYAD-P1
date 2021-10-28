@@ -176,12 +176,8 @@ Servidor NAS
    servidor-nas/servicio-smb-cifs
    servidor-nas/servicio-nfs
 
-10.1. :doc:`servidor-nas/descargar-omv`
-
-10.2. :doc:`servidor-nas/instalar-omv`
-
-10.3. :doc:`servidor-nas/configuracion-raid`
-
-10.4. :doc:`servidor-nas/servicio-smb-cifs`
-
-10.5. :doc:`servidor-nas/servicio-nfs`
+| 10.1. :doc:`servidor-nas/descargar-omv`
+| 10.2. :doc:`servidor-nas/instalar-omv`
+| 10.3. :doc:`servidor-nas/configuracion-raid`
+| 10.4. :doc:`servidor-nas/servicio-smb-cifs`
+| 10.5. :doc:`servidor-nas/servicio-nfs`

@@ -24,7 +24,8 @@ La configuración por tanto es la siguiente:
    :align: center
    :alt: Imagen en la que se pueden ver los discos virtuales conectados a la máquina
 
-
+|br|
+    
 Una vez hemos arrancado la máquina podemos utilizar el comando *lsblk* para ver la lista de dispositivos conectados al equipo.
 
 .. code-block:: console
@@ -448,3 +449,8 @@ Para ver los detalles de un RAID en Ubuntu podemos utilizar el siguiente comando
         1       8       96        1      active sync   /dev/sdg
         2       8      112        2      active sync   /dev/sdh
         4       8      128        3      active sync   /dev/sdi
+
+.. # define a hard line break for HTML
+.. |br| raw:: html
+
+   <br />
