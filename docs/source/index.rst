@@ -21,7 +21,7 @@ Presentación
 
    introducción
 
-1. :doc:`introducción`
+| 1. :doc:`introducción`
 
 Análisis y Diseño
 ------------------
@@ -34,9 +34,8 @@ Análisis y Diseño
    empresa-propuesta
    plano-cpd-bruselas
 
-2.1. :doc:`empresa-propuesta`
-
-2.2.  :doc:`plano-cpd-bruselas`
+| 2.1. :doc:`empresa-propuesta`
+| 2.2.  :doc:`plano-cpd-bruselas`
 
 
 Seguridad
@@ -51,11 +50,9 @@ Seguridad
    sistemas-anti-incendio
    seguridad-anti-catastrofes
 
-3.1. :doc:`control-de-acceso`
-
-3.2. :doc:`sistemas-anti-incendio`
-
-3.2. :doc:`seguridad-anti-catastrofes`
+| 3.1. :doc:`control-de-acceso`
+| 3.2. :doc:`sistemas-anti-incendio`
+| 3.2. :doc:`seguridad-anti-catastrofes`
 
 
 Integridad
@@ -68,7 +65,7 @@ Integridad
 
    integridad-de-la-informacion
 
-4.1. :doc:`integridad-de-la-informacion`
+| 4.1. :doc:`integridad-de-la-informacion`
 
 
 Criptografía
@@ -82,7 +79,7 @@ Criptografía
 
    criptografia
 
-5.1. :doc:`criptografia`
+| 5.1. :doc:`criptografia`
 
 
 Fallos de electricidad
@@ -96,9 +93,8 @@ Fallos de electricidad
    calculo-sai
    eleccion-sai
 
-6.1. :doc:`calculo-sai`
-
-6.2. :doc:`eleccion-sai`
+| 6.1. :doc:`calculo-sai`
+| 6.2. :doc:`eleccion-sai`
 
 IP y direccionamiento
 ---------------------
@@ -112,11 +108,9 @@ IP y direccionamiento
    direccionamiento-ip-sede
    configuracion-dominios
 
-7.1. :doc:`direccionamiento-ip-empresa`
-
-7.2. :doc:`direccionamiento-ip-sede`
-
-7.3. :doc:`configuracion-dominios`
+| 7.1. :doc:`direccionamiento-ip-empresa`
+| 7.2. :doc:`direccionamiento-ip-sede`
+| 7.3. :doc:`configuracion-dominios`
 
 
 Servicios y certificados
@@ -133,15 +127,11 @@ Servicios y certificados
    servicio/certificado-letsencrypt
    servidor-nas/importar-certificado
 
-8.1. :doc:`servicio/servidor-ssh`
-
-8.2. :doc:`servicio/servidor-web`
-
-8.3. :doc:`servicio/convertirnos-ac`
-
-8.4. :doc:`servicio/certificado-letsencrypt`
-
-8.5. :doc:`servidor-nas/importar-certificado`
+| 8.1. :doc:`servicio/servidor-ssh`
+| 8.2. :doc:`servicio/servidor-web`
+| 8.3. :doc:`servicio/convertirnos-ac`
+| 8.4. :doc:`servicio/certificado-letsencrypt`
+| 8.5. :doc:`servidor-nas/importar-certificado`
 
 Seguridad de la información
 ---------------------------
@@ -155,11 +145,9 @@ Seguridad de la información
    raid/raid-linux
    raid/recuperacion-info-linux
 
-9.1. :doc:`raid/raid-windows`
-
-9.2. :doc:`raid/raid-linux`
-
-9.3. :doc:`raid/recuperacion-info-linux`
+| 9.1. :doc:`raid/raid-windows`
+| 9.2. :doc:`raid/raid-linux`
+| 9.3. :doc:`raid/recuperacion-info-linux`
 
 
 Servidor NAS

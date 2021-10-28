@@ -16,13 +16,11 @@ Se añaden 8 discos virtuales a la máquina:
     * El disco principal de 50GB, donde almacenaremos el sistema operativo. 
     * 7 discos de 5GB que utilizaremos para configurar los sistemas RAID.
 
-
-
-.. raw:: html
-
-    <div style="position: relative; margin: 2em; padding-bottom: 5%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-       <img src="https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/docs/source/images/raid/raid1.png" alt="Imagen en la que se pueden ver los discos virtuales conectados a la máquina">
-    </div>
+.. image :: ../images/raid/raid1.png
+   :width: 500
+   :align: center
+   :alt: Imagen en la que se pueden ver los discos virtuales conectados a la máquina
+|br|
 
 
 Sistema RAID0 - Stripped
@@ -35,12 +33,12 @@ Para ello, hacemos clic sobre uno de ellos y seleccionamo *Inicializar disco*. A
 
 En nuestro caso seleccionamo *Disco 1* y *Disco 2*, utilizamos GPT como formato de partición para no tener limitaciones en tanto a particiones que sí podríamos llegar a tener con MBR. 
 
-.. raw:: html
 
-    <div style="position: relative; margin: 2em; padding-bottom: 5%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-       <img src="https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/docs/source/images/raid/raid2.png" alt="Imagen en la que se puede ver cómo inicializar un disco desde el administrador de Discos de Windows">
-    </div>
-
+.. image :: ../images/raid/raid2.png
+   :width: 500
+   :align: center
+   :alt: Imagen en la que se puede ver cómo inicializar un disco desde el administrador de Discos de Windows
+|br|
 
 Después debemos convertir los discos a discos dinámicos. Para hacerlo, basta con seleccionar el disco correspondiente, hacer clic derecho sobre el nombre y marcar la opción *Convertir en disco dinámico*. Al igual que cuando hemos incializado los discos, el asistente nos permite convertir varios en un mismo paso. Seleccionamos ambos discos con los que estamos trabajando. 
 
@@ -92,8 +90,15 @@ Resultado
 
 En la siguiente imagen podemos ver el resultado de los pasos mostrados en esta página:
 
-.. raw:: html
 
-    <div style="position: relative; margin: 2em; padding-bottom: 5%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-       <img src="https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/docs/source/images/raid/raid3.png" alt="Imagen en la que se puede ver cómo inicializar un disco desde el administrador de Discos de Windows">
-    </div>
+.. image :: ../images/raid/raid3.png
+   :width: 500
+   :align: center
+   :alt: Imagen en la que se puede ver cómo inicializar un disco desde el administrador de Discos de Windows
+|br|
+
+
+.. # define a hard line break for HTML
+.. |br| raw:: html
+
+   <br />
