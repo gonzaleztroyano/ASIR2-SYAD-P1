@@ -109,8 +109,13 @@ Añadir nuevo disco a RAID
 
 Al hacerlo veremos como se durante unos segundos el sistema se recompondrá, replicando los datos entre los discos. 
 
-.. raw:: html
+.. image :: ../images/raid/raid5.png
+   :width: 500
+   :align: center
+   :alt: Imagen en la que se pueden ver los discos virtuales conectados a la máquina
+|br|
 
-    <div style="position: relative; margin: 2em; padding-bottom: 5%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-       <img src="https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/docs/source/images/raid/raid5.png" alt="Imagen en la que se pueden ver cómo se recomponen los discos">
-    </div>
+.. # define a hard line break for HTML
+.. |br| raw:: html
+
+   <br />

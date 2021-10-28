@@ -53,11 +53,12 @@ En la pantalla que nos aparece debemos desplazarnos hasta la sección *Entidades
 
 Seleccionamos el archivo *CA_Carpet4You.pem* generado de forma previa. Veremos un aviso al importarlo:
 
-.. raw:: html
 
-    <div style="position: relative; margin: 2em; padding-bottom: 5%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-       <img src="https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/docs/source/images/web3.png" alt="Captura de pantalla durante la importación del certificado AC">
-    </div>
+.. image :: ../images/web3.png
+   :width: 500
+   :align: center
+   :alt: Captura de pantalla durante la importación del certificado AC
+|br|
 
 Creción de certificado firmado por nuestra CA
 ==============================================
@@ -136,18 +137,22 @@ Modificamos el archivo */etc/apache2/sites-available/www.carpet4you.site.conf* p
 
 Ahora no aparecerá ningún error al cargar la página:
 
-.. raw:: html
 
-    <div style="position: relative; margin: 2em; padding-bottom: 5%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-       <img src="https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/docs/source/images/web4.png" alt="Captura de pantalla durante la importación del certificado AC">
-    </div>
-
+.. image :: ../images/web4.png
+   :width: 500
+   :align: center
+   :alt: Captura de pantalla durante la importación del certificado AC
+|br|
 
 Si hacemos clic en los detalles del certificado para ver la ruta de certificación veremos:
 
-.. raw:: html
 
-    <div style="position: relative; margin: 2em; padding-bottom: 5%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-       <img src="https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/docs/source/images/web5.png" alt="Captura de pantalla durante la importación del certificado AC">
-    </div>
+.. image :: ../images/web5.png
+   :width: 500
+   :align: center
+   :alt: Captura de pantalla durante la importación del certificado AC
+|br|
 
+.. |br| raw:: html
+
+   <br />

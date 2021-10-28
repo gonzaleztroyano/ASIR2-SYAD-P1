@@ -58,12 +58,10 @@ Comprobaremos con el comando *dig* si ha sido añadido correctamente:
 
 Si ahora intentamos conectarnos a dicho dominio desde el navegador web veremos:
 
-.. raw:: html
-
-    <div style="position: relative; margin: 2em; padding-bottom: 5%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-       <img src="https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/docs/source/images/web1.png" alt="Captura de pantalla del servidor">
-    </div>
-
+.. image :: ../images/web1.png
+   :width: 500
+   :align: center
+|br|
 
 .. note ::
 
@@ -153,9 +151,12 @@ Reiniciamos el servicio tal y como hemos visto de forma previa :ref:`referencia-
 
 Ahora podremos visitar la web con el nuevo certificado y comprobar que funciona:
 
-.. raw:: html
 
-    <div style="position: relative; margin: 2em; padding-bottom: 5%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-       <img src="https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/docs/source/images/web2.png" alt="Captura de pantalla del servidor">
-    </div>
+.. image :: ../images/web2.png
+   :width: 500
+   :align: center
+|br|
 
+.. |br| raw:: html
+
+   <br />

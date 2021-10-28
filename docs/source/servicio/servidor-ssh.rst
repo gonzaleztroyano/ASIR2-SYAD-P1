@@ -73,13 +73,11 @@ Debemos reiniciar el servicio tal y como hemos visto en :ref:`referencia-reinici
 
 Si intentamos conectarnos ahora (con el programa Putty en Windows) recibiremos un error.
 
-
-.. raw:: html
-
-    <div style="position: relative; margin: 2em; padding-bottom: 5%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-       <a href="https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/docs/source/images/errorssh1.png" rel="noopener"><img src="https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/docs/source/images/errorssh1.png" alt="Error SSH"></a>
-    </div>
-
+.. image :: ../images/errorssh1.png
+   :width: 500
+   :align: center
+   :alt: Error SSH
+|br|
 
 Desconexión automática
 -----------------------
@@ -114,3 +112,7 @@ Debemos modifcar el archivo */etc/ssh/sshd_config* para modificar las siguientes
 .. code-block:: console
     
     DenyUsers invitado
+
+.. |br| raw:: html
+
+   <br />
