@@ -19,7 +19,7 @@ Se añaden 9 discos virtuales a la máquina:
 La configuración por tanto es la siguiente:
 
 
-.. image :: images/raid/raid4.png
+.. image :: ../images/raid/raid4.png
    :width: 500
    :align: center
    :alt: Imagen en la que se pueden ver los discos virtuales conectados a la máquina
