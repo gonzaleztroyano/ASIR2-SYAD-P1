@@ -18,11 +18,11 @@ Se añaden 9 discos virtuales a la máquina:
 
 La configuración por tanto es la siguiente:
 
-.. raw:: html
 
-    <div style="position: relative; margin: 2em; padding-bottom: 5%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-       <img src="https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/docs/source/images/raid/raid4.png" alt="Imagen en la que se pueden ver los discos virtuales conectados a la máquina">
-    </div>
+.. image :: images/raid/raid4.png
+   :width: 500
+   :align: center
+   :alt: Imagen en la que se pueden ver los discos virtuales conectados a la máquina
 
 
 Una vez hemos arrancado la máquina podemos utilizar el comando *lsblk* para ver la lista de dispositivos conectados al equipo.
