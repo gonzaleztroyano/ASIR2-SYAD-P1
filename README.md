@@ -13,3 +13,7 @@ Se utilizan las siguientes herramientas:
  * [Firebase](https://firebase.google.com/) para el alojamiento de la web pública. 
  * [Cloudflare](https://www.cloudflare.com/es-es/) para la gestión DNS.
  * [OVH](https://ovh.es/) para el registro del dominio
+
+**DISCLAIMER**: El autor no se hace responsable de los posibles fallos involuntarios que se pudieran habido cometer durante la realización de la práctica. Durante todo el proceso se ha seguido la cultura *max-effort, max-quality*. 
+
+Si detecta cualquier error puede reportarlo como issue a través de [este enlace](https://github.com/gonzaleztroyano/ASIR2-SYAD-P1/issues)
