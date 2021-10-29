@@ -92,6 +92,12 @@ Conexión entre sedes
 |br|
 
 .. note::
+
+    Si accedes a esta documentación desde la versión PDF, el GIF es accesible desde `este enlace <https://github.com/gonzaleztroyano/ASIR2-SYAD-P1/blob/main/docs/source/images/ASIR2.SYAD.P1.3.Mapa.svg>`_
+
+|br|
+    
+.. note::
     El color rojo simboliza trabajadoras y trabajadores remotos. 
     Las líneas discontínuas simbolizan conexiones utilizando infraestructura de Internet pública. 
     Las líneas contínuas son líneas dedicadas.

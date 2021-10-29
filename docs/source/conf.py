@@ -4,10 +4,10 @@
 
 project = 'Proyecto SYAD Trimestre 1'
 copyright = '2021, Pablo González, CC BY 2.5 ES'
-author = 'Pablo González'
+author = 'Pablo González Troyano - 2º ASIR'
 
-release = '0.4'
-version = '0.4.0'
+release = '0.5'
+version = '0.5.1'
 
 # -- General configuration
 

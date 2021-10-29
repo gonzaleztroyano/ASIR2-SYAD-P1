@@ -4,7 +4,8 @@ Configuración de RAID inicial
 
 .. note::
 
-    La interfaz se encuentra en inglés.
+    | La interfaz se encuentra en inglés.
+    | En el caso de consultar la versión PDF, puedes ver los vídeos haciendo clic en los enlaces previos a cada uno. 
 
 
 El proceso de creación de RAID es medianamente sencillo:
@@ -25,6 +26,8 @@ RAID 1
 Crear el RAID
 --------------
 
+Se puede ver la creación del RAID 1 en el `siguiente vídeo <https://www.loom.com/embed/eb3d21be6cdc4f9aadaae1c47ef8a53e>`_
+
 .. raw:: html
     
     <div style="position: relative; margin: 2em; padding-bottom: 5%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
@@ -33,6 +36,8 @@ Crear el RAID
 
 Crear el sistema de archivos:
 -----------------------------
+
+Se puede ver la creación del sistema de archivos en el `siguiente vídeo <https://www.loom.com/embed/5fa3796eeccc4636b65a48c9f4d5377c>`_
 
 .. raw:: html
 
@@ -43,7 +48,7 @@ Crear el sistema de archivos:
 RAID 5
 =============
 
-Para crear el RAID5 y el sistema de archivos seguimos los siguientes pasos. También hemos creado la carpeta compartida para el *home*:
+Para crear el RAID5 y el sistema de archivos seguimos los pasos descritos en el `siguiente víeo <https://www.loom.com/embed/edb151c8f7d441238176dcf1700ad58e>`_ . También hemos creado la carpeta compartida para el *home*:
 
 .. raw:: html
 

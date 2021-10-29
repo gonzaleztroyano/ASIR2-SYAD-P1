@@ -55,24 +55,33 @@ Comprobar ISO OpenMediaVault en Windows
 
 Una vez ha terminado de descargar el archivo .iso vamos a verificarlo. Para hacerlo, utilizaremos el programa autofirma que tiene capacidad de generar checksums. 
 
-.. raw:: html
 
-    <div style="position: relative; margin: 2em; padding-bottom: 5%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-       <img src="https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/docs/source/images/nas/nas1.png" alt="Imagen en la que se pueden ver las opciones de autofirma para la generación de huella digital">
-    </div>
+
+.. image :: ../images/nas/nas1.png
+   :width: 500
+   :align: center
+   :alt: Imagen en la que se pueden ver las opciones de autofirma para la generación de huella digital
+|br|
 
 Si tuviéramos la aplicación de 7z instalada también podríamos generar las huellas digitales del archivo .iso. 
 
-.. raw:: html
 
-    <div style="position: relative; margin: 2em; padding-bottom: 5%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-       <img src="https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/docs/source/images/nas/nas2.png" alt="Imagen en la que se pueden ver las opciones de 7z para la generación de huella digital">
-    </div>
+.. image :: ../images/nas/nas2.png
+   :width: 500
+   :align: center
+   :alt: Imagen en la que se pueden ver las opciones de 7z para la generación de huella digital.
+|br|
 
 Si comparamos las salidas de SHA256 veremos que coinciden:
 
-.. raw:: html
 
-    <div style="position: relative; margin: 2em; padding-bottom: 5%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-       <img src="https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/docs/source/images/nas/nas3.png" alt="Imagen en la que se pueden ver las sumas SHA256 generada y descargada">
-    </div>
+.. image :: ../images/nas/nas3.png
+   :width: 500
+   :align: center
+   :alt: Imagen en la que se pueden ver las sumas SHA256 generada y descargada
+|br|
+
+
+.. |br| raw:: html
+
+   <br />

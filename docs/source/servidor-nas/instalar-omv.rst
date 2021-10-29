@@ -14,11 +14,11 @@ En tanto a la red, se configuran 2 adaptadores virtuales:
 
 Sobre los discos, se crean los siguientes discos virtuales:
 
-.. raw:: html
-
-    <div style="position: relative; margin: 2em; padding-bottom: 5%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-       <img src="https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/docs/source/images/nas/nas4.png" alt="Imagen en la que se pueden ver los discos duros creados para la MV.">
-    </div>
+.. image :: ../images/nas/nas4.png
+   :width: 500
+   :align: center
+   :alt: Imagen en la que se pueden ver los discos duros creados para la MV.
+|br|
 
 
 Instalación del SO
@@ -34,6 +34,9 @@ En el siguiente GIF animado podemos ver el proceso, pantalla a pantalla.
        <img src="https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/docs/source/images/nas/nas_install_gif.gif" alt="Imagen animada en la que podemos ver, pantalla a pantalla, cómo es el proceso de instalación del SO OpenMediaVault">
     </div>
 
+.. note::
+
+    Si accedes a esta documentación desde la versión PDF, el GIF es accesible desde `este enlace <https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/docs/source/images/nas/nas_install_gif.gif>`_
 
 Dominio para el NAS
 ====================
@@ -114,3 +117,8 @@ Si ahora accedemos a la web podremos ver nuestro certificado:
     <div style="position: relative; margin: 2em; padding-bottom: 5%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
        <img src="https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/docs/source/images/nas/nas24.png" alt="">
     </div>
+
+
+.. |br| raw:: html
+
+   <br />
