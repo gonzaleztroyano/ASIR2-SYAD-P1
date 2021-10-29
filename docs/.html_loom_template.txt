@@ -16,3 +16,4 @@
    :width: 500
    :align: center
    :alt: Imagen en la que se pueden ver los discos virtuales conectados a la máquina
+|br|

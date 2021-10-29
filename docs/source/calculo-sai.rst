@@ -4,11 +4,13 @@ Cálculo potencia del SAI
 
 Viendo el plano del CPD Bruselas nos percatamos de la gran cantidad de equipos que puede alojar:
 
-.. raw:: html
 
-    <div style="position: relative; margin: 2em; padding-bottom: 5%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-       <a href="https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/docs/source/images/ASIR2.SYAD.P1.2.svg" rel="noopener"><img src="https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/docs/source/images/ASIR2.SYAD.P1.2.svg" alt=""></a>
-    </div>
+
+.. image :: images/ASIR2.SYAD.P1.2.svg
+   :width: 500
+   :align: center
+   :alt: Imagen en la que se pueden ver los discos virtuales conectados a la máquina
+|br|
 
 Cálculo del número de equipos
 =============================
@@ -41,7 +43,7 @@ Se toma una media de 200W por equipo. Los switches y equipos de conectividad con
 Cálculo de la capacidad necesaria de respaldo
 ==============================================
 
-El objetivo de est CPD es estar siempre operativo. En cualquier caso, la empresa puede permitirse durante un espacio limitado del tiempo la pérdida de un CPD sin que esto afecte a las operaciones visibles de la empresa. El SLO [#nota2]_ es del 100%, pero el SLA[#nota3]_ acordado con la ejecutiva de la empresa es menor, del 99,5%. Tener un SLA del 99,5% significa no estar más de 1,8 días fuera de servicio en un periodo de 1 año natural.
+El objetivo de est CPD es estar siempre operativo. En cualquier caso, la empresa puede permitirse durante un espacio limitado del tiempo la pérdida de un CPD sin que esto afecte a las operaciones visibles de la empresa. El SLO [#nota2]_ es del 100%, pero el SLA [#nota3]_ acordado con la ejecutiva de la empresa es menor, del 99,5%. Tener un SLA del 99,5% significa no estar más de 1,8 días fuera de servicio en un periodo de 1 año natural.
 
 Sin embargo, gracias a la característica distribuida de la empresa y a nuestro sistema de control DNS podríamos redirigir algunos servicios a otro CPD mientras dure la incidencia en un CPD dado. 
 
@@ -70,3 +72,7 @@ Si se utilizara esta gama sería necesario instalarlos en una sala especialmente
 .. [#nota2] *Service Level Objective*, Objetivo de nivel de servicio. Lo que se espera que el servicio esté disponible.
 .. [#nota3] *Service Level Agreement*, Acuerdo de nivel de servicio. Aunque se utiliza en acuerdos comerciales, en Carpet4You la utilizamos para definir el mínimo de tiempo que debe estar completamente operativo el CPD.
 .. [#nota4] En `esta página <https://www.aegps.com/en/technology/references/strato/>`_ se puede obtener la referencia del cliente.
+
+.. |br| raw:: html
+
+   <br />

@@ -67,7 +67,7 @@ El sistema principal de extinción de incendios de la sala de proceso de datos e
 Este gas se envasa en estado líquido en cilindros metálicos de alta presión. En caso de detectar un incendio, es liberado inmediatamente en la sala mediante tuberías, ocupando el mayor espacio posible (al ser un gas) en pocos segundos. Opera interrumpiendo la reacción en cadena. 
 Es un gas no tóxico, por lo que agentes de bomberos y el propio personal de Carpet4You puede estar en la sala para colaborar en la extinción o retornar equipos sin necesidad de expulsar el gas. En el CPD de Bilbao previamente se utilizada CO\ :sub:`2`\, pero se ha actualizado recientemente a FM-200 por esta diferencia.
 
-Así es como actúa el FM-200:
+En `este vídeo <https://www.youtube.com/embed/SCXR1cwdi0s>`_ se puede ver como actúa el FM-200:
 
 .. raw:: html
 
