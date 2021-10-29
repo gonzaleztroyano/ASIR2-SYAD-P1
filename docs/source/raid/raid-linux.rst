@@ -7,14 +7,14 @@ Configuración de la MV
 
 Se utilizará una máquina virtual con Windows Server 2019 como sistema operativo. Se le asignan 4 GB de RAM y 4 vCPUs. 
 En tanto a la red, se configuran 1 adaptadores virtual:
- * Adaptador 1, configurado en modo NAT para la conexión a internet. 
+* Adaptador 1, configurado en modo NAT para la conexión a internet. 
 
 En tanto al usuario administrador utiliza la (poco segura) combinación *user:user*.
 
 Se añaden 9 discos virtuales a la máquina:
 
-    * El disco principal de 50GB, donde almacenaremos el sistema operativo. 
-    * 8 discos de 5GB que utilizaremos para configurar los sistemas RAID.
+* El disco principal de 50GB, donde almacenaremos el sistema operativo. 
+* 8 discos de 5GB que utilizaremos para configurar los sistemas RAID.
 
 La configuración por tanto es la siguiente:
 
@@ -450,7 +450,6 @@ Para ver los detalles de un RAID en Ubuntu podemos utilizar el siguiente comando
         2       8      112        2      active sync   /dev/sdh
         4       8      128        3      active sync   /dev/sdi
 
-.. # define a hard line break for HTML
 .. |br| raw:: html
 
    <br />

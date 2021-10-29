@@ -1,6 +1,6 @@
-******************************
+==============================
 Elección de dispositivos SAI
-******************************
+==============================
 
 Carpet4You se decanta por los productos SAI de la marca APC, filial de la empresa Schneider Electric. 
 
@@ -9,11 +9,7 @@ Armario no crítico
 
 Para los dispositivios SAI de los armarios no críticos tenemos la configuración aquí mostrada:
 
-.. raw:: html
 
-    <div style="position: relative; margin: 2em; padding-bottom: 5%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-       <img src="https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/docs/source/images/sai1.png" alt="Elección de conjunto SAI para rack no crítico">
-    </div>
 
 .. image :: images/sai1.png
    :width: 500
@@ -43,11 +39,6 @@ Armario crítico
 
 Para los dispositivios SAI de los armarios no críticos tenemos la configuración aquí mostrada:
 
-.. raw:: html
-
-    <div style="position: relative; margin: 2em; padding-bottom: 5%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-       <img src="https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/docs/source/images/sai2.png" alt="Elección de conjunto SAI para rack crítico">
-    </div>
 
 .. image :: images/sai2.png
    :width: 500

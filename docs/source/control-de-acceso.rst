@@ -42,7 +42,8 @@ Coste del sistema de grabaciones
 +----------------+----------+---------------+--------------+
 
 Sistema de control de personas interior
-======================================
+=========================================
+
 El sistema de control de acceso es producido por la misma empresa que las cámaras. El nombre comercial es *Unifi Access*. 
 
 Debemos distinguir los siguientes dispositivos/partes de control:
@@ -51,8 +52,9 @@ Debemos distinguir los siguientes dispositivos/partes de control:
 
     * El `AC Reader Pro <https://eu.store.ui.com/collections/unifi-door-access/products/unifi-access-reader-pro>`_, con pantalla y cámara integrada. Se instalará en las puertas de entrada a la sala de Control, así como en la de acceso al distribuidor de salas de proceso. Dispone de lector de tarjetas, Bluetooth para integración con la aplicación móvil de acceso, posibilidad de introducir PIN de acceso, y cámara para actuar de timbre y ser permitida la entrada por otra persona. 
     * El `AC Reader Lite <https://eu.store.ui.com/collections/unifi-door-access/products/unifi-access-reader-lite>`_, que se instalará en las puertas de entrada a las salas de proceso de datos. Uno en cada lado de la puerta de paso. Así, como en el sentido de vuelta de las salas de proceso de datos. Permite la identificación con tarjeta inteligente, así como con la aplicación móvil. 
-* El `Access Hub <https://dl.ui.com/ds/ua-ds.pdf>`_, que actúa de interfaz entre el controlador de los equipos, las cerraduras y los lectores. Se conecta mediante PoE al cotrolador y el resto de equipos de una pueta a este. Desde el Access Hub son alimentados mediante PoE los lectores. 
-* Todo el sistema es coordinado por el equipo *Dream Machine Pro*, que dispone de una interfaz web para la gestión y mantenimiento. En este equipo también se instalará el controlador para el sistema Wi-Fi. Tiene un coste aproximado de 500€
+
+ * El `Access Hub <https://dl.ui.com/ds/ua-ds.pdf>`_, que actúa de interfaz entre el controlador de los equipos, las cerraduras y los lectores. Se conecta mediante PoE al cotrolador y el resto de equipos de una pueta a este. Desde el Access Hub son alimentados mediante PoE los lectores. 
+ * Todo el sistema es coordinado por el equipo *Dream Machine Pro*, que dispone de una interfaz web para la gestión y mantenimiento. En este equipo también se instalará el controlador para el sistema Wi-Fi. Tiene un coste aproximado de 500€
 
 En el `siguiente vídeo <https://www.youtube.com/embed/wh_nPEOtLzc>`_ podemos ver cómo funciona el sistema:
 
@@ -85,8 +87,8 @@ Sistema de arcos de seguridad y detectores de metales
 
 La instalación y el mantenimiento de estas soluciones correrá a cargo de la empresa barcelonesa "OrcromSeguridad". Se instalará en el control de acceso 2 un conjunto de control del fabricante *Garret Metal Detectors*. En `este enlace <https://www.orcromseguridad.com/wp-content/uploads/2018/10/Integracion-Garrett-VMI.pdf>`_ se encuentra disponible un folleto publicitario con los productos que incluye el conjunto. Son los siguientes:
 
- * *Spectrum 6040*, que permite la inspección de mochilas y bolsos de empleados y visitantes. Se instará a los empleados a no pasar al interior con mochilas y bolsos, permitiéndolo dejar en taquillas vigiladas en el control. De esta manera se evita la sobre exposición de la empleada/o del Control, trabajadoras, trabajadores y visitantes a los rayos X, así como de sus pertenencias. En `este enlace <https://www.orcromseguridad.com/nuestros-productos/equipo-rayos-x-spectrum-6040/>`_ se puede obtener más información sobre este producto. 
- * *Garrett PD 6500i*, este arco de seguridad permite evitar el paso con objetos metálicos al interior del recinto. Desde `este enlace <https://orcromseguridad.com/wp-content/uploads/2018/08/arco-detector-Garrett-PD6500i.pdf>`_ se puede obtener más información sobre dicho producto. 
+* *Spectrum 6040*, que permite la inspección de mochilas y bolsos de empleados y visitantes. Se instará a los empleados a no pasar al interior con mochilas y bolsos, permitiéndolo dejar en taquillas vigiladas en el control. De esta manera se evita la sobre exposición de la empleada/o del Control, trabajadoras, trabajadores y visitantes a los rayos X, así como de sus pertenencias. En `este enlace <https://www.orcromseguridad.com/nuestros-productos/equipo-rayos-x-spectrum-6040/>`_ se puede obtener más información sobre este producto. 
+* *Garrett PD 6500i*, este arco de seguridad permite evitar el paso con objetos metálicos al interior del recinto. Desde `este enlace <https://orcromseguridad.com/wp-content/uploads/2018/08/arco-detector-Garrett-PD6500i.pdf>`_ se puede obtener más información sobre dicho producto. 
 
 El equipo será operado por un vigilante de seguridad propio (en Carpet4You no subcontratamos/externalizamos, pues creemos en el empleo de calidad y la confianza). 
 

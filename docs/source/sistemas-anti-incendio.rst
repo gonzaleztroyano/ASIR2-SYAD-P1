@@ -1,6 +1,6 @@
-****************************************
+============================================
 Sistemas de protección contra incendios
-****************************************
+============================================
 
 Mantener unas instalaciones seguras es vital. No solo para la seguridad de los datos, que es la materia que trataremos en profundidadidad, sino también para la seguridad de las personas: empleadas y empleados de nuestras sedes por el mundo. 
 Por tanto, la empresa Carpet4You cuenta con los sistemas de protección contra incendios más avanzados del mercado. 
@@ -11,10 +11,10 @@ Prevención de incendios (PI)
 =============================
 Aunque siempre debemos estar preparados para enfrentarnos a un incendio de grandes dimensiones (como el que enfrentó OVH hace unos meses) [#nota2]_ , los grandes incendios al principio son pequeños, por lo que es importante prevenirlos y en caso de que surjan, extinguirlos lo antes posible. Para hacerlo, se toman en consideración una serie de medidas (protección contra incendios pasiva):
 
- * Las diferentes salas del edificio de procesamiento de datos estarán separadas por puertas ignífugas. Se ha evitado en la construcción del edificio los pasillos largos que puedas propagar incendios. 
- * En la construcción del edificio también se ha exigido que las paredes no contengan materiales inflamables (aislamientos plásticos, poliuretano, etc). 
- * Las empleadas y empleados del centro de datos han asistido a cursos de PRL y PI. Con cada mejora o actualización del sistema se repiten rondas de formación.
- * Se planifican simulacros de acción y evacuación, coordinados con el equipo de bomberos de la ciudad. 
+* Las diferentes salas del edificio de procesamiento de datos estarán separadas por puertas ignífugas. Se ha evitado en la construcción del edificio los pasillos largos que puedas propagar incendios. 
+* En la construcción del edificio también se ha exigido que las paredes no contengan materiales inflamables (aislamientos plásticos, poliuretano, etc). 
+* Las empleadas y empleados del centro de datos han asistido a cursos de PRL y PI. Con cada mejora o actualización del sistema se repiten rondas de formación.
+* Se planifican simulacros de acción y evacuación, coordinados con el equipo de bomberos de la ciudad. 
 
 Detección y alerta de incendios
 ===============================

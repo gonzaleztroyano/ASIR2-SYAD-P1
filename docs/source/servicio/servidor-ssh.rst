@@ -9,8 +9,8 @@ Máquina Virtual de trabajo
 
 Se utilizará una máquina virtual con Ubuntu Server 18.04 como sistema operativo. Se le asignan 4 GB de RAM y 4 vCPUs. 
 En tanto a la red, se configuran 2 adaptadores virtuales:
- * Adaptador 1, configurado en modo NAT para la conexión a internet. 
- * Adaptador 2, confiugrado en modo solo-anfitrión, para la conexión SSH y a los servicios.
+* Adaptador 1, configurado en modo NAT para la conexión a internet. 
+* Adaptador 2, confiugrado en modo solo-anfitrión, para la conexión SSH y a los servicios.
 
 En tanto al usuario administrador utiliza la (poco segura) combinación user:user.
 

@@ -12,7 +12,7 @@ Sedes de la empresa
 * La **sede técnica** de la empresa está situada en Bilbao. Desde esta oficina se coordinan todas las operaciones IT a nivel internacional y dispone de uno de los Centros de Proceso de Datos de la empresa. Esta sede emplea a unas 200 personas.
 * La sede de **Bruselas** (Bélgica) se dedica a las ventas por todo el centro y Este de Europa. Trabajan unas 150 personas en esta sede.
 * La sede de **Bergen** (Noruega) se encarga de coordinar las ventas de todo el norte de Europa. La temperatura de los paises nórdicos hace necesaria la compra de alfombras a gran escala. 
-* En tanto a los trabajadores ***remotos*, aunque están distribuidos por el mundo, su área de acción se reduce a:
+* En tanto a los trabajadores *remotos*, aunque están distribuidos por el mundo, su área de acción se reduce a:
 
     * 15 empleados por toda Rusia. 
     * 10 empleados en Reino Unido e Irlanda.
@@ -57,6 +57,7 @@ Carpet4You dispone del AS número 88757. Este *Autonomous Number* tiene una seri
     * Rango /48 3 --> 2001:db8:3c4f::/48 en reserva, se planea utilizar subsegmentos para la conectividad hacia Internet de las sedes y experimentación del equipo de I+D+i
 
 * Rango en IPv4: 100.65.65.0. Subdividido
+
 +------------------+---------------------+-------------------------------+-----------------+
 | Dirección de red | Usado en            | Rango de IPs utilizable       | IP de Broadcast |
 +==================+=====================+===============================+=================+
@@ -71,6 +72,7 @@ Carpet4You dispone del AS número 88757. Este *Autonomous Number* tiene una seri
 
 
 .. Attention::
+    
      Nótese que el rango de IPv4 no es enrutable en Internet y corresponde al rango de las IPs asigadas a los Internet Service Providers (IPS) para el uso de CG-NAT.
 
 Dominio de la empresa

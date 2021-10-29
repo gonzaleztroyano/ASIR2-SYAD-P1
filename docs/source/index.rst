@@ -42,7 +42,7 @@ Seguridad
 ---------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :hidden:
    :caption: Seguridad
   
@@ -163,7 +163,7 @@ Servidor NAS
    servidor-nas/configuracion-raid
    servidor-nas/servicio-smb-cifs
    servidor-nas/servicio-nfs
-   servidor-nas/servicio-fto
+   servidor-nas/servicio-ftp
 
 | 10.1. :doc:`servidor-nas/descargar-omv`
 | 10.2. :doc:`servidor-nas/instalar-omv`

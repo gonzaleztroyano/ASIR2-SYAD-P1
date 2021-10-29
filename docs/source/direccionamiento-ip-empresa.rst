@@ -1,4 +1,4 @@
-*******************************************
+********************************************
 Direccionamiento IP de la empresa (general)
 ********************************************
 
@@ -20,6 +20,7 @@ Carpet4You dispone del AS número 88757. Este *Autonomous Number* tiene una seri
      Nótese que los rangos IPv6 no son enrutables en Internet y corresponde y son subrangos del rango dedicado por IANA para la confección de documentación.
 
 * Rango en IPv4: 100.65.65.0. Subdividido
+
 +------------------+---------------------+-------------------------------+-----------------+
 | Dirección de red | Usado en            | Rango de IPs utilizable       | IP de Broadcast |
 +==================+=====================+===============================+=================+
