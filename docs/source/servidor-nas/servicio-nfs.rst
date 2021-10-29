@@ -44,7 +44,6 @@ En la misma pantalla en la que nos encontrábamos, seleccionamos *Shares* en la 
 .. image :: ../images/nas/nas31.png
    :width: 500
    :align: center
-   :alt: Captura de pantalla pidiendo credenciales.
 |br|
 
 Montar carpeta NFS
@@ -55,7 +54,8 @@ Para montar la carpeta debemos ejecutar el siguiente comando:
 
 .. code-block:: console
 
-    user@server-carpet:~$ mount -t nfs4 nas.corp.carpet4you.site:/NFS-Carpet4You /mnt/carpet
+    user@server-carpet:~$ mkdir /mnt/carpet
+    user@server-carpet:~$ mount -t nfs4 nas.corp.carpet4you.site:NFS-Carpet4You /mnt/carpet
 
 .. |br| raw:: html
 
