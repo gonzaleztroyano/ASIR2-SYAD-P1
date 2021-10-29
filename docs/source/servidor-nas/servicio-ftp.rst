@@ -89,3 +89,6 @@ Podemos listar y añadir archivos sin problemas:
    :alt: Certificado en Filezilla
 |br|
 
+.. |br| raw:: html
+
+   <br />
