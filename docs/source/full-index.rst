@@ -4,7 +4,6 @@
 
 .. toctree::
     :maxdepth: 5
-    :numbered:
 
     introducción
     empresa-propuesta
