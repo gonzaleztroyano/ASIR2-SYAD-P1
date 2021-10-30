@@ -6,8 +6,8 @@ project = 'Proyecto SYAD Trimestre 1'
 copyright = '2021, Pablo González, CC BY 2.5 ES'
 author = 'Pablo González Troyano - 2º ASIR - IES Villablanca'
 
-release = '0.105'
-version = '0.105'
+release = '0.106'
+version = '0.106'
 
 # -- General configuration
 
@@ -38,6 +38,7 @@ epub_show_urls = 'footnote'
 # -- Modificar el FAVICON -- 
 html_favicon = 'https://carpet4you.site/images/carpet_yellowline_32.png'
 
+# -- Quitar las flechitas entre las páginas -- 
 html_theme_options = {
     'prev_next_buttons_location': 'none',
 
