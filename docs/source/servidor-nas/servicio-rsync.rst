@@ -15,7 +15,7 @@ Aquí, en la parte superior, vemos dos pestañas: *Jobs* y *Server*. Seleccionam
 
 *Jobs* para configurar trabajos como **cliente** Rsync y *Server* para que OpenMediaVault actúe como **servidor** Rsync ofreciendo módulos a clientes. 
 
-Dentro de *Server* hay dos opciones: *Settings* y *Modules*. En la "jerga" de Rsycn, los módulos son las carpetas compartidas
+Dentro de *Server* hay dos opciones: *Settings* y *Modules*. En la "jerga" de Rsync, los módulos son las carpetas compartidas
 
 Para **activar el servicio Rsync** debemos marcar el interruptor. El puerto lo mantendremos en el por defecto. 
 
