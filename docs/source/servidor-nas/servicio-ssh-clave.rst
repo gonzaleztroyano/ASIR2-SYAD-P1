@@ -88,7 +88,7 @@ Añadir claves al perfil del usuario
 Debemos copiar la clave pública generada en el paso anterior. Es importante copiar la salida del comando de transformación (``ssh-keygen -e -f ~/.ssh/user.pub``) y no el contenido iniciar del archivo. 
 
 
-.. image :: ../images/nas38-ssh.png
+.. image :: ../images/nas/nas38-ssh.png
    :width: 500
    :align: center
    :alt: Añadir clave púb
@@ -126,7 +126,7 @@ Inicio de sesión remoto con clave
 
     | En la *issue* se comenta también un error de permisos:
 
-        .. image :: ../images/nas39-ssh.png
+        .. image :: ../images/nas/nas39-ssh.png
             :width: 500
             :align: center
             :alt: Añadir clave púb
@@ -164,7 +164,7 @@ Inicio de sesión remoto con clave
 
     En el terminal cliente podemos ver la conexión establecida:
 
-    .. image :: ../images/nas40-ssh.png
+    .. image :: ../images/nas/nas40-ssh.png
             :width: 500
             :align: center
             :alt: Añadir clave púb

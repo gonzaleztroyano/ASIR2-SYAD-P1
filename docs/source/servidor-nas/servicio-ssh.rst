@@ -37,7 +37,7 @@ Una vez realizadas las configuraciones, debemos guardarlas y aplicarlas.
 
 En la siguiente imagen tenemos un ejemplo de configuración:
 
-.. image :: ../images/nas35.png
+.. image :: ../images/nas/nas35.png
    :width: 500
    :align: center
    :alt: Ejemplo de configuración de SSH
@@ -66,7 +66,7 @@ Para la conexión desde Windows utilizaremos el programa *Putty*. Basta con defi
 
 Si es la primera vez que nos conectamos veremos el siguiente aviso:
 
-.. image :: ../images/nas36-ssh.png
+.. image :: ../images/nas/nas36-ssh.png
    :width: 500
    :align: center
    :alt: Aviso new host
@@ -76,7 +76,7 @@ Si es la primera vez que nos conectamos veremos el siguiente aviso:
 Nos solicitará usuario y contraseña e iniciaremos sesión:
 
 
-.. image :: ../images/nas37-ssh.png
+.. image :: ../images/nas/nas37-ssh.png
    :width: 500
    :align: center
    :alt: Aviso new host
