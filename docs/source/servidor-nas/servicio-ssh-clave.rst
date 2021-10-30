@@ -1,6 +1,6 @@
-#########################################
-SSH autenticado con clave pública-privada
-#########################################
+#####################################################
+Servicio SSH autenticado con clave pública-privada
+#####################################################
 
 Configuración del servicio
 ===========================
@@ -165,9 +165,9 @@ Inicio de sesión remoto con clave
     En el terminal cliente podemos ver la conexión establecida:
 
     .. image :: ../images/nas/nas40-ssh.png
-            :width: 500
-            :align: center
-            :alt: Añadir clave púb
+        :width: 500
+        :align: center
+        :alt: La conexión está funcionando
         |br|
 
 

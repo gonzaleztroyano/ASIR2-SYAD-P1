@@ -166,6 +166,7 @@ Servidor NAS
    servidor-nas/servicio-ftp
    servidor-nas/servicio-ssh
    servidor-nas/servicio-ssh-clave
+   servidor-nas/servicio-rsync
 
 | 10.1. :doc:`servidor-nas/descargar-omv`
 | 10.2. :doc:`servidor-nas/instalar-omv`
@@ -174,4 +175,5 @@ Servidor NAS
 | 10.5. :doc:`servidor-nas/servicio-nfs`
 | 10.6. :doc:`servidor-nas/servicio-ftp`
 | 10.7. :doc:`servidor-nas/servicio-ssh`
-| 10.8. :doc:`servidor-nas/servicio-ssh`
+| 10.8. :doc:`servidor-nas/servicio-ssh-clave`
+| 10.9. :doc:`servidor-nas/servicio-rsync`
