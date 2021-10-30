@@ -64,6 +64,7 @@ Crearemos algún archivo en la carpeta prueba y veremos si se copia en el servid
     | Para configurar la programación de cron, `esta página <https://crontab.guru/every-15-minutes>`_ es muy útil.
 
 **¡Funciona!**
+
 .. image :: ../images/nas/nas45-rsync.png
    :width: 500
    :align: center
