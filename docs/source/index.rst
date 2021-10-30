@@ -179,3 +179,16 @@ Servidor NAS
 | 10.8. :doc:`servidor-nas/servicio-ssh-clave`
 | 10.9. :doc:`servidor-nas/servicio-rsync`
 | 10.10. :doc:`servidor-nas/servicio-rsync-automatizado`
+
+
+NextCloud ("Nube") 
+-------------------
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: NextCloud ("Nube") 
+
+   nextcloud/instalacion
+
+| 11.1. :doc:`nextcloud/instalacion`

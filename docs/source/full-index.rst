@@ -35,3 +35,5 @@
     servidor-nas/servicio-ssh
     servidor-nas/servicio-ssh-clave
     servidor-nas/servicio-rsync
+    servidor-nas/servicio-rsync-automatizado
+    nextcloud/instalacion
