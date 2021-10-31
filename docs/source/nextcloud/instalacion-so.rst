@@ -1,6 +1,6 @@
-###############################
-Instalación de OpenMediaVault
-###############################
+################################
+Instalación de Sistema Operativo
+################################
 
 Configuración de la MV
 ========================
@@ -27,14 +27,14 @@ Puesto que considero bastante interesante la configuración del RAID 0 durante l
 Llegados a la siguiente pantalla, hacemos clic en *Custom storage layout*:
 
 .. image :: ../images/nextcloud/nc-1.png
-   :width: 200
+   :width: 500
    :align: center
 |br|
 
 Marcamos que queremos configurar un RAID:
 
 .. image :: ../images/nextcloud/nc-2.png
-   :width: 200
+   :width: 500
    :align: center
 |br|
 
@@ -42,35 +42,35 @@ Marcamos que queremos configurar un RAID:
 En la configuración del RAID, seleccionamos el nivel de RAID deseado y los discos destino. 
 
 .. image :: ../images/nextcloud/nc-3.png
-   :width: 200
+   :width: 500
    :align: center
 |br|
 
 De nuevo en el resumen de discos, en el menú del RAID, hacemos clic en formatear. Utilizamos ext4 como sistema de archivos y */* como punto de montaje. 
 
 .. image :: ../images/nextcloud/nc-4.png
-   :width: 200
+   :width: 500
    :align: center
 |br|
 
 También aprovecharemos para crear el RAID 5 para los datos: 
 
 .. image :: ../images/nextcloud/nc-5.png
-   :width: 200
+   :width: 500
    :align: center
 |br|
 
 Indicamos que sea el disco de 10 Gb el que se utilizará para el *boot device*. También indicamos que el RAID 5 sea utilizado para los datos, y montado en la ruta ``/nc-data``:
 
 .. image :: ../images/nextcloud/nc-6.png
-   :width: 200
+   :width: 500
    :align: center
 |br|
 
 El resultado de los discos es el siguiente:
 
 .. image :: ../images/nextcloud/nc-7.png
-   :width: 200
+   :width: 500
    :align: center
 |br|
 
@@ -81,7 +81,7 @@ El resultado de los discos es el siguiente:
    Tras la segunda vez dando error en la instalación, se instala en un solo disco, sin RAID:
      
       .. image :: ../images/nextcloud/nc-8.png
-         :width: 200
+         :width: 500
          :align: center
 |br|
 

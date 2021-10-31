@@ -189,6 +189,12 @@ NextCloud ("Nube")
    :hidden:
    :caption: NextCloud ("Nube") 
 
-   nextcloud/instalacion
+   nextcloud/instalacion-so
+   nextcloud/instalacion-nc
+   nextcloud/securizar
+   nextcloud/url-bonitas
 
-| 11.1. :doc:`nextcloud/instalacion`
+| 11.1. :doc:`nextcloud/instalacion-so`
+| 11.2. :doc:`nextcloud/instalacion-nc`
+| 11.3. :doc:`nextcloud/securizar`
+| 11.4. :doc:`nextcloud/url-bonitas`
