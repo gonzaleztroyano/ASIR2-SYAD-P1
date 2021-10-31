@@ -55,7 +55,7 @@ Deberán descargarse y descomprimirse varios archivos, que juntos formarán la i
 
 .. important::
 
-    Debemos utilizar como puerto externo (el primero de la combinación docker, 8089) del contenedor uno que no esté en uso por ningún otro proceso. 
+    Debemos utilizar como puerto externo (el primero de la combinación docker, 8443) del contenedor uno que no esté en uso por ningún otro proceso. 
 
     Alojar las rutas indicadas en nuestro propio sistema de archivos nos ayudará a "debuguear" problemas. 
 

@@ -2,12 +2,12 @@
 
 # -- Project information
 
-project = 'Proyecto SYAD Trimestre 1'
+project = 'Proyecto Seguridad y Alta Disponibilidad - Trimestre 1'
 copyright = '2021, Pablo González, CC BY 2.5 ES'
 author = 'Pablo González Troyano - 2º ASIR - IES Villablanca'
 
-release = '0.113'
-version = '0.113'
+release = '0.114'
+version = '0.114'
 
 # -- General configuration
 
