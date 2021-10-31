@@ -32,9 +32,9 @@ Modificamos el archivo ``/etc/apache2/sites-available/nextcloud.conf`` para que 
         </IfModule>
     </Directory>
     RewriteEngine on
-RewriteCond %{SERVER_NAME} =cloud.carpet4you.site
-RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,NE,R=permanent]
-</VirtualHost>
+    RewriteCond %{SERVER_NAME} =cloud.carpet4you.site
+    RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,NE,R=permanent]
+    </VirtualHost>
 
 
 

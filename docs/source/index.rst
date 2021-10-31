@@ -193,8 +193,12 @@ NextCloud ("Nube")
    nextcloud/instalacion-nc
    nextcloud/securizar
    nextcloud/url-bonitas
+   nextcloud/creacion-usuarios
+   nextcloud/sincronizacion-cliente
 
 | 11.1. :doc:`nextcloud/instalacion-so`
 | 11.2. :doc:`nextcloud/instalacion-nc`
 | 11.3. :doc:`nextcloud/securizar`
 | 11.4. :doc:`nextcloud/url-bonitas`
+| 11.5. :doc:`nextcloud/creacion-usuarios`
+| 11.6. :doc:`nextcloud/sincronizacion-cliente`
