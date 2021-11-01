@@ -13,6 +13,7 @@
     seguridad-anti-catastrofes
     integridad-de-la-informacion
     criptografia
+    firma-fmnt
     calculo-sai
     eleccion-sai
     direccionamiento-ip-empresa
@@ -36,4 +37,11 @@
     servidor-nas/servicio-ssh-clave
     servidor-nas/servicio-rsync
     servidor-nas/servicio-rsync-automatizado
-    nextcloud/instalacion
+    nextcloud/instalacion-so
+    nextcloud/instalacion-nc
+    nextcloud/securizar
+    nextcloud/url-bonitas
+    nextcloud/creacion-usuarios
+    nextcloud/sincronizacion-cliente
+    nextcloud/instalar-onlyoffice
+    nextcloud/editar-archivos-onlyoffice
