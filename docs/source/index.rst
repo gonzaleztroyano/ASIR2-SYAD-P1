@@ -24,7 +24,7 @@ Presentación
 | 1. :doc:`introducción`
 
 Análisis y Diseño
-------------------
+--------------------
 
 .. toctree::
    :maxdepth: 2
@@ -81,6 +81,7 @@ Criptografía
    firma-fmnt
 
 | 5.1. :doc:`criptografia`
+| 5.2. :doc:`firma-fmnt`
 
 
 Fallos de electricidad
@@ -124,18 +125,26 @@ Servicios y certificados
 
    servicio/servidor-ssh
    servicio/servidor-web
+   servicio/servidor-ftp
+   servicio/servidor-nfs
+   servicio/servidor-samba
+   servicio/servidor-rsync
    servicio/convertirnos-ac
    servicio/certificado-letsencrypt
    servidor-nas/importar-certificado
 
 | 8.1. :doc:`servicio/servidor-ssh`
 | 8.2. :doc:`servicio/servidor-web`
-| 8.3. :doc:`servicio/convertirnos-ac`
-| 8.4. :doc:`servicio/certificado-letsencrypt`
-| 8.5. :doc:`servidor-nas/importar-certificado`
+| 8.3. :doc:`servicio/servidor-ftp`
+| 8.4. :doc:`servicio/servidor-nfs`
+| 8.5. :doc:`servicio/servidor-samba`
+| 8.6. :doc:`servicio/servidor-samba`
+| 8.7. :doc:`servicio/convertirnos-ac`
+| 8.8. :doc:`servicio/certificado-letsencrypt`
+| 8.9. :doc:`servidor-nas/importar-certificado`
 
 Seguridad de la información
----------------------------
+-----------------------------
 
 .. toctree::
    :maxdepth: 2

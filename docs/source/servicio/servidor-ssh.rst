@@ -5,7 +5,7 @@ Servidor SSH
 A continuación se detalla el proceso de instalación y configuración del servidor SSH para un equipo de la empresa.
 
 Máquina Virtual de trabajo
-==========================
+===========================
 
 Se utilizará una máquina virtual con Ubuntu Server 18.04 como sistema operativo. Se le asignan 4 GB de RAM y 4 vCPUs. 
 En tanto a la red, se configuran 2 adaptadores virtuales:
