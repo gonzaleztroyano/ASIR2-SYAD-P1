@@ -159,6 +159,27 @@ Una vez descargadas desde el Aula Virtual las claves, debemos extraer los .key d
         -rwxr-xr-x 1 pablo pablo 5241 Nov 11  2019 PrivateKeyEmpleadoGenerico.key
         -rwxr-xr-x 1 pablo pablo    0 Nov 11  2019 PublicKeyEmpleadoGenerico.key
    
+Importaremos la clave privada:
+
+.. code-block:: console
+
+    gpg --import PrivateKeyEmpleadoGenerico.key
+
+Aunque no sepamos la contraseña simétrica, la clave pública será importada. 
+
+Para ver la clave pública importada:
+
+.. code-block:: console
+
+    user@server-carpet:~$ gpg --list-keys
+    /home/user/.gnupg/pubring.kbx
+    -----------------------------
+    pub   rsa3072 2019-11-07 [SC] [expires: 2021-11-06]
+        2F537C9D14C7E613DE5C0EEDA540561B0E2FED4D
+    uid           [ unknown] Empleado Generico Empresa <EmpleadoGenerico@empresa.com>
+    sub   rsa3072 2019-11-07 [E] [expires: 2021-11-06]
+
+
 
 Ejercicio 4.7
 =============
