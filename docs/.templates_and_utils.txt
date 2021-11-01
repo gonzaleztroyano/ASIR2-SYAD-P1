@@ -20,5 +20,6 @@
 
 .. important:: 
 
+.. admonition::
 .. code-block:: console
     pablo@carpet:~$ 
