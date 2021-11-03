@@ -119,8 +119,8 @@ Usaremos elos siguientes comandos:
 
 .. code-block:: console
 
-    user@server:~$ sudo adduser --shell /usr/sbin/nologin --ingroup sambashare marta
-    user@server:~$ sudo adduser --shell /usr/sbin/nologin --ingroup sambashare juan
+    user@server:~$ sudo adduser --shell /usr/sbin/nologin --home /md0/home/marta --ingroup sambashare marta
+    user@server:~$ sudo adduser --shell /usr/sbin/nologin --home /md0/home/juan --ingroup sambashare juan
 
 .. La contraseña de los usuarios es su propio nombre. 
 
@@ -130,10 +130,10 @@ Para remediarlo ejecutamos los siguientes comandos:
 
 .. code-block:: console
 
-    user@server:~$ sudo chown juan:sambashare /home/juan/
-    user@server:~$ sudo chown marta:sambashare /home/marta/
-    user@server:~$ sudo chmod -R 2770 /home/juan/
-    user@server:~$ sudo chmod -R 2770 /home/marta/
+    user@server:~$ sudo chown juan:sambashare /md0/home/juan
+    user@server:~$ sudo chown marta:sambashare /md0/home/marta
+    user@server:~$ sudo chmod -R 2770 /md0/home/juan/
+    user@server:~$ sudo chmod -R 2770 /md0/home/marta/
 
 Ya tenemos creados los usuarios en el sistema operativo, pero no en Samba, para hacerlo:
 
@@ -155,7 +155,7 @@ Volveremos a modificar el archivo ``/etc/samba/smb.conf``, añadiendo el siguien
 .. code-block::
 
     [marta]
-        path = /home/marta
+        path = /md0/home/marta
         browseable = no
         read only = no
         force create mode = 0660
@@ -163,7 +163,7 @@ Volveremos a modificar el archivo ``/etc/samba/smb.conf``, añadiendo el siguien
         valid users = marta
 
     [juan]
-        path = /home/juan
+        path = /md0/home/juan
         browseable = no
         read only = no
         force create mode = 0660
@@ -175,13 +175,15 @@ Volveremos a modificar el archivo ``/etc/samba/smb.conf``, añadiendo el siguien
     Con cada cambio en el archivo de configuración es recomendable ejecutar ``testparm``
     Puede ser recomendable añadir un grupo o usuario administrador para la gestión Samba. 
 
-Crearemos una carpeta compartida global, la llamaremos ``tolmundo``:
+Crearemos una carpeta compartida global, la llamaremos ``tolmundo``, también otra en ``/home/compartidoNFS``:
 
 .. code-block:: console
     
     user@server:~$ sudo mkdir -p /samba/tolmundo
+    user@server:~$ sudo mkdir -p /home/compartidoNFS
 
-Añadiremos la siguiente sección al archivo ``/etc/samba/smb.conf`` para activar dicha compartición:
+
+Añadiremos la siguiente sección al archivo ``/etc/samba/smb.conf`` para activar estas comparticiones:
 
 .. code-block:: 
 
@@ -192,6 +194,13 @@ Añadiremos la siguiente sección al archivo ``/etc/samba/smb.conf`` para activa
         force create mode = 0660
         force directory mode = 2770
         valid users = @sambashare user
+    [compartidoNFS]
+        path = /home/compartidoNFS
+        browseable = yes
+        read only = no
+        force create mode = 0660
+        force directory mode = 2770
+        valid users = @sambashare juan marta
 
 Iniciar el servicio
 ======================
@@ -201,3 +210,26 @@ Para iniciar el servicio ejecutamos:
 .. code-block:: console
     
     user@server:~$ sudo systemctl start smbd.service
+
+También debemos permitir el acceso a través del Firewall:
+
+.. code-block:: console
+    
+    user@server:~$ sudo ufw allow samba
+
+Conexión a carpeta
+===================
+
+Para conectarnos a la carpeta usamos ``smb://<IP-del-Servidor>/<Recurso>``, en Linux. En Windows abriremos el explorador de archivos y escriremos ``\<IP-del-Servidor>/<Recurso>``.
+
+Veamos un ejemplo en Linux:
+
+.. image :: ../images/servicio/samba-1.png
+   :width: 500
+   :align: center
+   :alt: Conexión a la carpeta compartida
+|br|
+
+.. |br| raw:: html
+
+   <br />
