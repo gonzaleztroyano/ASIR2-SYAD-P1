@@ -7,6 +7,9 @@ Sincronización entre la *home* y NextCloud
    Los archivos se están copiando desde la carpeta home de los usuarios del equipo, no desde la home de OpenMediaVault. Para copiar/sincronizar estas carpetas sería suficiente con cambiar las rutas pertinentes
 
 
+Estructura de archivos
+========================
+
 En una instalación mediante paquetes APT, como es la nuestra, la carpeta por defecto donde se guardan los datos de los usuarios está localizada en la ruta ``/var/www/nextcloud/data/``. 
 
 Dentro de este directorio, encontraremos una carpeta para cada usuario. Dentro de dicha carpeta, tendremos una carpeta, llamada ``data`` (junto con otras), donde se guardará los datos:
@@ -37,7 +40,7 @@ Dentro de este directorio, encontraremos una carpeta para cada usuario. Dentro d
 
 Como vemos, la estructura del directorio ``files`` es lo mismo que podemos ver desde la interfaz web. 
 
-.. image :: ../images/nexcloud/nc-31.png
+.. image :: ../images/nextcloud/nc-31.png
    :width: 500
    :align: center
    :alt: Imagen en la que se puede ver la estructura de las carpetas desde la web. 
@@ -119,7 +122,7 @@ La salida del comando es la siguientes:
 
 Si ahora accedemos desde la interfaz web veremos los archivos:
 
-.. image :: ../images/nexcloud/nc-32.png
+.. image :: ../images/nextcloud/nc-32.png
    :width: 500
    :align: center
    :alt: Interfaz web en la que se ven los archivos copiardos con Rsync en la web.
