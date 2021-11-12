@@ -207,6 +207,7 @@ NextCloud ("Nube")
    nextcloud/sincronizacion-cliente
    nextcloud/instalar-onlyoffice
    nextcloud/editar-archivos-onlyoffice
+   nextcloud/sincronizacion-home-nexcloud
 
 | 11.1. :doc:`nextcloud/instalacion-so`
 | 11.2. :doc:`nextcloud/instalacion-nc`
@@ -216,3 +217,4 @@ NextCloud ("Nube")
 | 11.6. :doc:`nextcloud/sincronizacion-cliente`
 | 11.7. :doc:`nextcloud/instalar-onlyoffice`
 | 11.8. :doc:`nextcloud/editar-archivos-onlyoffice`
+| 11.9  :doc:`nextcloud/sincronizacion-home-nexcloud`

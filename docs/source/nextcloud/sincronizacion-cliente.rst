@@ -68,14 +68,14 @@ Descargamos la aplicación:
 
 9. Navegamos en nuestro dispositivos hasta que localicemos los archivos que queremos subir y los seleccionamos. Hacemos clic en *Subir*:
 
-.. image :: ../images/nextcloud/nc-c-23.png
+.. image :: ../images/nextcloud/nc-c-23.jpg
    :width: 300
    :align: center
 |br|
 
 10. Ya los podemos ver desde nuestra aplicación móvil:
 
-.. image :: ../images/nextcloud/nc-c-24.png
+.. image :: ../images/nextcloud/nc-c-24.jpg
    :width: 300
    :align: center
 |br|

@@ -45,3 +45,4 @@
     nextcloud/sincronizacion-cliente
     nextcloud/instalar-onlyoffice
     nextcloud/editar-archivos-onlyoffice
+    nextcloud/sincronizacion-home-nexcloud
