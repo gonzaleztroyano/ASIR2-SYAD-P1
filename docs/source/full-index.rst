@@ -46,3 +46,5 @@
     nextcloud/instalar-onlyoffice
     nextcloud/editar-archivos-onlyoffice
     nextcloud/sincronizacion-home-nexcloud
+    sync-backup/copia-seguridad-incremental
+    sync-backup/copia-seguridad-diferencial

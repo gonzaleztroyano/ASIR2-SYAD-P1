@@ -207,7 +207,6 @@ NextCloud ("Nube")
    nextcloud/sincronizacion-cliente
    nextcloud/instalar-onlyoffice
    nextcloud/editar-archivos-onlyoffice
-   nextcloud/sincronizacion-home-nexcloud
 
 | 11.1. :doc:`nextcloud/instalacion-so`
 | 11.2. :doc:`nextcloud/instalacion-nc`
@@ -217,4 +216,26 @@ NextCloud ("Nube")
 | 11.6. :doc:`nextcloud/sincronizacion-cliente`
 | 11.7. :doc:`nextcloud/instalar-onlyoffice`
 | 11.8. :doc:`nextcloud/editar-archivos-onlyoffice`
-| 11.9  :doc:`nextcloud/sincronizacion-home-nexcloud`
+
+
+*Sync & Backup*
+-------------------
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Sync & Backup
+   
+   servidor-nas/servicio-rsync
+   servidor-nas/servicio-rsync-automatizado
+   nextcloud/sincronizacion-home-nexcloud
+   sync-backup/copia-seguridad-incremental
+   sync-backup/copia-seguridad-diferencial
+   sync-backup/sincronizacion-backup-nextcloud
+
+| 12.1. :doc:`servidor-nas/servicio-rsync`
+| 12.2. :doc:`servidor-nas/servicio-rsync-automatizado`
+| 12.3. :doc:`nextcloud/sincronizacion-home-nexcloud`
+| 12.4. :doc:`sync-backup/copia-seguridad-incremental`
+| 12.5. :doc:`sync-backup/copia-seguridad-diferencial`
+| 12.6. :doc:`sync-backup/sincronizacion-backup-nextcloud`

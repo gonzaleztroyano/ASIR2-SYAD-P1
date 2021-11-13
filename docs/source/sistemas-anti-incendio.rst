@@ -5,7 +5,7 @@ Sistemas de protección contra incendios
 Mantener unas instalaciones seguras es vital. No solo para la seguridad de los datos, que es la materia que trataremos en profundidadidad, sino también para la seguridad de las personas: empleadas y empleados de nuestras sedes por el mundo. 
 Por tanto, la empresa Carpet4You cuenta con los sistemas de protección contra incendios más avanzados del mercado. 
 
-Como empresa internacional, Carpet4You cumple con todas las regulaciones en materia de seguridad. Además se acoge a las recomendaciones de la norma NFPA 75, de protección contra incendios en Centros de Datos[#nota1]_.
+Como empresa internacional, Carpet4You cumple con todas las regulaciones en materia de seguridad. Además se acoge a las recomendaciones de la norma NFPA 75, de protección contra incendios en Centros de Datos [#nota1]_.
 
 Prevención de incendios (PI)
 =============================
