@@ -87,6 +87,7 @@ Comprobar que los datos siguen siendo accesibles
 Para hacerlo basta con navegar al punto de montaje del dispostivo RAID y listar o navegar por los archivos. Siempre teniendo en cuenta que cuánto menos modifiquemos, mejor.
 
 .. code-block:: console
+    
     user@server-carpet:~$ cd /mnt/md2/
     user@server-carpet:/mnt/md2$ ll
     total 23852

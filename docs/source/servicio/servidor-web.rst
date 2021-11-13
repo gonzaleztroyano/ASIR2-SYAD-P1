@@ -14,8 +14,6 @@ Para instalar el servidor SSH, si no estuviera instalado, debemos ejecutar el si
 
 Si lo acabamos de instalar debemos iniciarlo y permitir su inicio en el arranque del equipo:
 
-.. _referencia-reinicio-apache:
-
 .. code-block:: console
     
     user@server-carpet:~$ systemctl enable apache2
@@ -147,7 +145,7 @@ También debemos activar una serie de módulos y configuraciones
     user@server-carpet:~$ sudo a2enconf ssl-params
 
 
-Reiniciamos el servicio tal y como hemos visto de forma previa :ref:`referencia-reinicio-apache`.
+Reiniciamos el servicio tal y como hemos visto de forma previa.
 
 Ahora podremos visitar la web con el nuevo certificado y comprobar que funciona:
 

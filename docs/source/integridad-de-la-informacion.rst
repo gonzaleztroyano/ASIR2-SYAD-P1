@@ -7,6 +7,7 @@ A la web de la empresa (`Carpet4You.site <https://carpet4you.site>`_) se ha subi
 Lo primero que hacemos es obtener el archivo, esto normalmente se hace antes de crear subirlo a la web, pero al estar en un máquina virtual es así más sencillo
 
 .. code-block:: console
+    
     pablo@carpet:~$ curl https://carpet4you.site/images/plano_CPD.pdf -o plano_CPD.pdf
 
 Una vez lo tenemos debemos generar las sumas de comprobación, utilizando los diferentes sistemas que tenemos para ello. 

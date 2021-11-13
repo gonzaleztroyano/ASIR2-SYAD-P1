@@ -26,8 +26,6 @@ Para instalar el servidor SSH, si no estuviera instalado, debemos ejecutar el si
 
 Si lo acabamos de instalar debemos iniciarlo y permitir su inicio en el arranque del equipo:
 
-.. _referencia-reinicio-ssh:
-
 .. code-block:: console
     
     user@server-carpet:~$ systemctl enable ssh
@@ -69,7 +67,7 @@ Lo siguiente que debemos hacer es modifcar el archivo */etc/ssh/sshd_config* par
     
     PasswordAuthentication no
 
-Debemos reiniciar el servicio tal y como hemos visto en :ref:`referencia-reinicio-ssh`.
+Debemos reiniciar el servicio tal y como hemos visto anteriormente.
 
 Si intentamos conectarnos ahora (con el programa Putty en Windows) recibiremos un error.
 
