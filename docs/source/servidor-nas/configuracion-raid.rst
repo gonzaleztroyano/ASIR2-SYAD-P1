@@ -12,6 +12,7 @@ El proceso de creación de RAID es medianamente sencillo:
 
 #. Inicializar los discos
 #. Crear RAID
+
     #. Indicando nombre
     #. Seleccionar nivel de RAID
     #. Seleccionar dispositivos 
@@ -26,7 +27,7 @@ RAID 1
 Crear el RAID
 --------------
 
-Se puede ver la creación del RAID 1 en el `siguiente vídeo <https://www.loom.com/embed/eb3d21be6cdc4f9aadaae1c47ef8a53e>`_
+Se puede ver la creación del RAID 1 en el `siguiente vídeo <https://www.loom.com/embed/eb3d21be6cdc4f9aadaae1c47ef8a53e>`_:
 
 .. raw:: html
     
@@ -37,7 +38,7 @@ Se puede ver la creación del RAID 1 en el `siguiente vídeo <https://www.loom.c
 Crear el sistema de archivos:
 -----------------------------
 
-Se puede ver la creación del sistema de archivos en el `siguiente vídeo <https://www.loom.com/embed/5fa3796eeccc4636b65a48c9f4d5377c>`_
+Se puede ver la creación del sistema de archivos en el `siguiente vídeo <https://www.loom.com/embed/5fa3796eeccc4636b65a48c9f4d5377c>`_:
 
 .. raw:: html
 
@@ -48,7 +49,7 @@ Se puede ver la creación del sistema de archivos en el `siguiente vídeo <https
 RAID 5
 =============
 
-Para crear el RAID5 y el sistema de archivos seguimos los pasos descritos en el `siguiente víeo <https://www.loom.com/embed/edb151c8f7d441238176dcf1700ad58e>`_ . También hemos creado la carpeta compartida para el *home*:
+Para crear el RAID5 y el sistema de archivos seguimos los pasos descritos en el `siguiente víeo <https://www.loom.com/embed/edb151c8f7d441238176dcf1700ad58e>`_. También hemos creado la carpeta compartida para el *home*:
 
 .. raw:: html
 

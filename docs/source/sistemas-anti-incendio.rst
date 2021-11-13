@@ -58,6 +58,7 @@ Extinción de incendios (off-room)
 ----------------------------------
 
 Para la extinción de incendios en los pasillos, vestíbulos y alrededores del edificio de CPD se implementan las siguientes medidas:
+
 * Se instalan bombas de extinción de incendios en el exterior de la sede. De esta forma se podrían sofocar incendios provocados por, por ejemplo, coches. Un incendio exterior no sofocado puede propagarse al interior y ser mucho más problemático. Estas BIE (Bocas de Incendio Equipadas) estarán señalizadas acorde a la legalización y se encontrará una cada 100 metros en la pared exterior del edificio. 
 * Junto con las BIE, se instalarán hidrantes para facilitar la acción del equipo de bomberos en caso de ser necesario. 
 * Las mangueras de las BIE por norma general se encuentran entre los 20 y 50 metros. Se adquiere una manguera racorada (con los *"enganches"*) y un portamangueras, que serán depositados en el control de acceso 2 listos para ser desplegados en caso de ser necearios.
@@ -82,7 +83,7 @@ En `este vídeo <https://www.youtube.com/embed/SCXR1cwdi0s>`_ se puede ver como 
 
 En la esta sala de proceso de datos también se situarán la señalización de emergencia y evacuacion (siempre clase A para facilitar la identificación aún en momentos de poca visibiliad o fallo de suministro eléctrico). 
 
-Aunque no se prevé su uso gracias a la instalación del sistema FM-200 serán instalados extintores de CO\ :sub:`2`\. En cada extremo del pasillo se situará un extintor de 5 Kg de CO\ :sub:`2`\ (peso total 14Kg)[#nota3]_. De forma adicional, en los pasillos intermedios entre los primarios, perpendiculares a estos, se instalarán extintores de C02 de 2Kg. Estos extitores tiene un peso total de unos 8 Kg, aproximadamente. Se eligen estos para permitir que cualquier persona pueda utilizarlos y el peso de la solución no sea problema para aplicarlo. 
+Aunque no se prevé su uso gracias a la instalación del sistema FM-200 serán instalados extintores de CO\ :sub:`2`\. En cada extremo del pasillo se situará un extintor de 5 Kg de CO\ :sub:`2`\ (peso total 14Kg) [#nota3]_. De forma adicional, en los pasillos intermedios entre los primarios, perpendiculares a estos, se instalarán extintores de C02 de 2Kg. Estos extitores tiene un peso total de unos 8 Kg, aproximadamente. Se eligen estos para permitir que cualquier persona pueda utilizarlos y el peso de la solución no sea problema para aplicarlo. 
 
 
 Productos de extinción de incendios elegidos

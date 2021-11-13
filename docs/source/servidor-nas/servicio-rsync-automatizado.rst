@@ -20,15 +20,16 @@ Por motivos de seguridad **no vamos a usar la misma clave SSH**. Por motivos int
     
     pablo@cliente:~$ ssh-keygen -t rsa
 
-La guardaremos en ~/.ssh/backup
+La guardaremos en ``~/.ssh/backup``.
 
 Copiar clave pública a servidor
 ================================
 
 Como ya hemos visto en el apartado de *Servicio SSH autenticado con clave pública-privada*, ocurren cosas raras al intentar añadir las claves de un usuario desde la GUI web. 
 
-Iniciando en el propio servidor (mediante SSH, por ejemplo), añadimos la clave publica al archivo ``/srv/dev-disk-by-id-md-name-nas-RAID5Carpet4You/home/user/.ssh/authorized_keys``. Después de copiarla tendremos, al menos, dos clave:
+Iniciando en el propio servidor (mediante SSH, por ejemplo), añadimos la clave publica al archivo ``/srv/dev-disk-by-id-md-name-nas-RAID5Carpet4You/home/user/.ssh/authorized_keys``. 
 
+Después de copiarla tendremos, al menos, dos clave:
 * La clave pública para el inicio SSH "típico". 
 * La clave pública que utilizaremos para la autenticación contra Rsync. 
 

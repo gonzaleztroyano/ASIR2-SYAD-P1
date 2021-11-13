@@ -7,7 +7,7 @@ Configuración del servicio
 
 Por defecto, en la mayoría de los sistemas Unix está instalado Rsync. Pero sólo es utilizable como cliente. 
 
-Si solicitamos el *status* del servicio veremos que nos indica como falta el archivo ``etc/rsyncd.conf``
+Si solicitamos el *status* del servicio veremos que nos indica como falta el archivo ``/etc/rsyncd.conf``
 
 .. code-block:: console
 
@@ -61,7 +61,7 @@ Por motivos de seguridad **no vamos a usar la misma clave SSH**. Por motivos int
     
     user@cliente:~$ ssh-keygen -t rsa
 
-La guardaremos en ~/.ssh/rsync
+La guardaremos en ``~/.ssh/rsync``.
 
 Copiar clave pública a servidor
 ----------------------------------

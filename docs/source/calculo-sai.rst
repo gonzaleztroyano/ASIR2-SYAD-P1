@@ -6,16 +6,16 @@ Viendo el plano del CPD Bruselas nos percatamos de la gran cantidad de equipos q
 
 
 
-.. image :: images/ASIR2.SYAD.P1.2.svg
+.. image :: images/ASIR2.SYAD.P1.2.png
    :width: 500
    :align: center
-   :alt: Imagen en la que se pueden ver los discos virtuales conectados a la máquina
+   :alt: Plano del CPD
 |br|
 
 Cálculo del número de equipos
 =============================
 
-Cada zona en naranja tiene espacio para 3 racks estandar. Serán racks de 42U x 19", aproximadamente 2 metros de alto por 50cm de ancho. 
+Cada zona en naranja tiene espacio para 3 racks estandar. Serán racks de 42U x 19 pulgadas, aproximadamente 2 metros de alto por 50cm de ancho. 
 
 Con un sencillo cálculo podemos obtener la cifra de hasta 72 racks que podemos tener funcionando en el CPD. La sección *D* de los racks [#nota1]_ contará con los equipos de conectividad y balanceo de carga entre los servidores. La comunicación con el exterior se realiza en los *border routers*, situados en la planta sótano del edificio.
 
@@ -26,7 +26,7 @@ Aunque estos racks tienen hasta 42U para el despliegue de equipos,se están util
  .. important ::
     Por tanto tenemos 35 racks y 30 Us = 1050 U disponibles 
 
-No todos los equipos ocupan 1U, unos 300 aproximadamente ocupan 2U, los dedicados al almacenamiento en Hadoop. Los resultados son: 600U ocupadas por 300 equipos dedicados al almacenamiento, 350U con 350 equipos dedicados al procesamiento y 100U ocupadas por 100 equipos dedicados a la interconexión
+No todos los equipos ocupan 1U, unos 300 aproximadamente ocupan 2U, los dedicados al almacenamiento en Hadoop. Los resultados son: 600U ocupadas por 300 equipos dedicados al almacenamiento, 350U con 350 equipos dedicados al procesamiento y 100U ocupadas por 100 equipos dedicados a la interconexión.
 
 Cálculo de la potencia de los equipos
 ======================================
@@ -37,7 +37,7 @@ Se toma una media de 200W por equipo. Los switches y equipos de conectividad con
 
  .. important ::
 
-    Tenemos por tanto 200W * 750 equipos = 150 000 W
+      Tenemos por tanto 200W * 750 equipos = 150 000 W
 
 
 Cálculo de la capacidad necesaria de respaldo
@@ -53,7 +53,7 @@ Por tanto, la capacidad energética de respaldo se ha calculado para alimentar l
 
 Para el resto de equipos, con mantenimiento de 1h hora la empresa ha calculado que será suficiente. 
 
-En primera instancia se ha pensado en las soluciones UPS de AEG, de la gama PROTECT 4. Esta gama está especialmente pensado para Data Centers e infraestructuras crítcas. Como curiosidad, son los que utilizan en el provedor de servicios de hosting alemán Strato [#nota4]_
+En primera instancia se ha pensado en las soluciones UPS de AEG, de la gama PROTECT 4. Esta gama está especialmente pensado para Data Centers e infraestructuras crítcas. Como curiosidad, son los que utilizan en el provedor de servicios de hosting alemán Strato [#nota4]_ .
 
 Si se utilizara esta gama sería necesario instalarlos en una sala especialmente dedicada en el sotáno, debido a su peso (más de 3 toneladas) y sus dimensiones (2100x1915x960 mm, Ancho, Alto, Fondo). 
 

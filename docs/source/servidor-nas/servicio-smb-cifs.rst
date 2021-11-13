@@ -11,7 +11,6 @@ Crear carpeta
 =============
 
 Crearemos la carpeta *SMB-Carpet4You* y la compartiremos con nuestro usuario. 
-
 Para hacerlo, seguiremos los siguientes pasos:
 
 #. Entramos al panel de control web de OMV.

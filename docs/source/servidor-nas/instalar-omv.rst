@@ -46,25 +46,26 @@ La IP asignada a la máquina virtual es la 192.168.56.111. Vamos a añadir un re
 Vamos a comprobar el registro con el comando *dig*:
 
 .. code-block:: console
+
     user@server-carpet:~$ dig nas.corp.carpet4you.site.
-    ; <<>> DiG 9.11.5-P4-5.1+deb10u5-Debian <<>> nas.corp.carpet4you.site.
-    ;; global options: +cmd
-    ;; Got answer:
-    ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 3770
-    ;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+        ; <<>> DiG 9.11.5-P4-5.1+deb10u5-Debian <<>> nas.corp.carpet4you.site.
+        ;; global options: +cmd
+        ;; Got answer:
+        ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 3770
+        ;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
 
-    ;; OPT PSEUDOSECTION:
-    ; EDNS: version: 0, flags:; udp: 512
-    ;; QUESTION SECTION:
-    ;nas.corp.carpet4you.site.      IN      A
+        ;; OPT PSEUDOSECTION:
+        ; EDNS: version: 0, flags:; udp: 512
+        ;; QUESTION SECTION:
+        ;nas.corp.carpet4you.site.      IN      A
 
-    ;; ANSWER SECTION:
-    nas.corp.carpet4you.site. 3600  IN      A       192.168.56.111
+        ;; ANSWER SECTION:
+        nas.corp.carpet4you.site. 3600  IN      A       192.168.56.111
 
-    ;; Query time: 17 msec
-    ;; SERVER: 169.254.169.254#53(169.254.169.254)
-    ;; WHEN: Mon Oct 25 21:48:32 UTC 2021
-    ;; MSG SIZE  rcvd: 69
+        ;; Query time: 17 msec
+        ;; SERVER: 169.254.169.254#53(169.254.169.254)
+        ;; WHEN: Mon Oct 25 21:48:32 UTC 2021
+        ;; MSG SIZE  rcvd: 69
 
 
 

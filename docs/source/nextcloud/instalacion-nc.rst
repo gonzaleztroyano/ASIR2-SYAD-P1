@@ -52,7 +52,6 @@ Descargaremos la última versión d NextCloud:
 #. Seleccionamos la versión *Server* y hacemos clic en *Download for Server*. 
 #. En la parte inferior de la página, haremos clic en el botón *Details and download options*. 
 #. En nuestro caso, utilizaremos el archivo tar comprimido y descargaremos:
-
  * El `instalador <https://download.nextcloud.com/server/releases/nextcloud-22.2.0.tar.bz2>`_, la `suma MD5 <https://download.nextcloud.com/server/releases/nextcloud-22.2.0.tar.bz2.md5>`_ y la `suma SHA256 <https://download.nextcloud.com/server/releases/nextcloud-22.2.0.tar.bz2.sha256>`_.
  * Descargaremos la `clave GPG <https://nextcloud.com/nextcloud.asc>`_ de NextCloud y la `firma .asc <https://download.nextcloud.com/server/releases/nextcloud-22.2.0.tar.bz2.asc>`_.
 

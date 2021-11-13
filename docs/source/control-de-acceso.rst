@@ -4,12 +4,15 @@ Control de Acceso físico
 
 Sistema de grabación
 ====================
-Para el sistema de grabación de las oficinas se utilizará el sistema de **Unifi Protect Cameras** . Se puede obtener más información sobre este sistema en `esta página <https://ui.com/camera-security>`__.
+Para el sistema de grabación de las oficinas se utilizará el sistema de **Unifi Protect Cameras**. Se puede obtener más información sobre este sistema en `esta página <https://ui.com/camera-security>`__.
+
 Una de las características más importantes de este sistema radica en la funcionalidad de autoalojar el controlador y las grabaciones. Esto permite tener control total sobre la infraestructura. Además, de esta forma no tenemos tráfico externo en este sentido. 
+
 El departamento legal, por la alta inversión que realiza el departamento de I+D+i de la empresa nos aconsejó que las imágenes de los laboratorios de alfombras no salieran al exterior. 
 
 Cámaras de vídeo
 -----------------
+
 Para la oficina de Bélgica se instalarán 40 cámaras de vídeo.
 Se utilizarán diferentes modelos:
 
@@ -19,6 +22,7 @@ Se utilizarán diferentes modelos:
 
 Gestión de grabaciones
 -----------------------
+
 La gestión de grabaciones se guardará en dos ubicaciones distintas como provisión de redunancia. Las grabacones serán guardadas durante 30 días en el centro y las grabaciones de los últimos 14 serán enviadas a través de conexión privada que la compañía tiene contratada (al menos) a otra sede de la empresa. 
 
 En todas las oficinas se dispone de un armario especial, marca *Rittal*, modelo *Micro Data Center Level E*. Más información en `este enlace <https://www.rittal.com/es-es/product/list/variations.action?categoryPath=/PG0001/PG0800ITINFRA1/PGRP5189ITINFRA1/PG1635ITINFRA1/PG1640ITINFRA1/PRO16554ITINFRA&productID=PRO16554>`_. En este se guardarán los equipos más importantes de la red. Por un lado, el sistema de gestión de grabaciones. Y los border routers que conectan los diferentes switches primarios de las salas. Estos border routers estarán conectados con dos 2 ISPs Tier 1, al menos. Y si la construcción lo permite, mediante canales exteriores distintos. 
@@ -29,6 +33,7 @@ Con los discos de 8TB ya tenidos en cuenta el sistema de gestión y alojamiento 
 
 Coste del sistema de grabaciones
 --------------------------------
+
 +----------------+----------+---------------+--------------+
 |    Producto    | Cantidad | Precio/Unidad | Precio total |
 +================+==========+===============+==============+
@@ -47,14 +52,14 @@ Sistema de control de personas interior
 El sistema de control de acceso es producido por la misma empresa que las cámaras. El nombre comercial es *Unifi Access*. 
 
 Debemos distinguir los siguientes dispositivos/partes de control:
- * Las tarjetas inteligentes. De estas dispondrán los empleados y las usarán para moverse por el centro.
- * Los lectores de tarjetas. Distinguimos dos modelos distintos:
+* Las tarjetas inteligentes. De estas dispondrán los empleados y las usarán para moverse por el centro.
+* Los lectores de tarjetas. Distinguimos dos modelos distintos:
 
     * El `AC Reader Pro <https://eu.store.ui.com/collections/unifi-door-access/products/unifi-access-reader-pro>`_, con pantalla y cámara integrada. Se instalará en las puertas de entrada a la sala de Control, así como en la de acceso al distribuidor de salas de proceso. Dispone de lector de tarjetas, Bluetooth para integración con la aplicación móvil de acceso, posibilidad de introducir PIN de acceso, y cámara para actuar de timbre y ser permitida la entrada por otra persona. 
     * El `AC Reader Lite <https://eu.store.ui.com/collections/unifi-door-access/products/unifi-access-reader-lite>`_, que se instalará en las puertas de entrada a las salas de proceso de datos. Uno en cada lado de la puerta de paso. Así, como en el sentido de vuelta de las salas de proceso de datos. Permite la identificación con tarjeta inteligente, así como con la aplicación móvil. 
 
- * El `Access Hub <https://dl.ui.com/ds/ua-ds.pdf>`_, que actúa de interfaz entre el controlador de los equipos, las cerraduras y los lectores. Se conecta mediante PoE al cotrolador y el resto de equipos de una pueta a este. Desde el Access Hub son alimentados mediante PoE los lectores. 
- * Todo el sistema es coordinado por el equipo *Dream Machine Pro*, que dispone de una interfaz web para la gestión y mantenimiento. En este equipo también se instalará el controlador para el sistema Wi-Fi. Tiene un coste aproximado de 500€
+* El `Access Hub <https://dl.ui.com/ds/ua-ds.pdf>`_, que actúa de interfaz entre el controlador de los equipos, las cerraduras y los lectores. Se conecta mediante PoE al cotrolador y el resto de equipos de una pueta a este. Desde el Access Hub son alimentados mediante PoE los lectores. 
+* Todo el sistema es coordinado por el equipo *Dream Machine Pro*, que dispone de una interfaz web para la gestión y mantenimiento. En este equipo también se instalará el controlador para el sistema Wi-Fi. Tiene un coste aproximado de 500€
 
 En el `siguiente vídeo <https://www.youtube.com/embed/wh_nPEOtLzc>`_ podemos ver cómo funciona el sistema:
 
@@ -98,10 +103,11 @@ Sistema de prevención de intrusión exterior
 ============================================
 
 Para prevenir el acceso desde el exterior se combinan diferentes medidas de seguridad. 
- * Por un lado, todo el recinto se encuntra vallado perimetramente con dos líneas de 2 metros de altura. 
- * En estas vallas instaladas alrededor del centro se han instalado carteles que indican que está prohibido el paso a la propiedad. 
- * Se han instalado detectores de movimiento que son activadas cuando cae la noche de forma automática. 
- * Para la entrada de vehículos se han instalado bolardos automáticos homologados para evitar la intrusión de camión a 90 km/h de forma directa. Estos se accionan desde el puesto de control 1. 
+
+* Por un lado, todo el recinto se encuntra vallado perimetramente con dos líneas de 2 metros de altura. 
+* En estas vallas instaladas alrededor del centro se han instalado carteles que indican que está prohibido el paso a la propiedad. 
+* Se han instalado detectores de movimiento que son activadas cuando cae la noche de forma automática. 
+* Para la entrada de vehículos se han instalado bolardos automáticos homologados para evitar la intrusión de camión a 90 km/h de forma directa. Estos se accionan desde el puesto de control 1. 
 
 Vigilancia perimetral y control interior
 =========================================

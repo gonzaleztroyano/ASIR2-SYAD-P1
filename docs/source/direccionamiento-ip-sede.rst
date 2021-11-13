@@ -17,7 +17,10 @@ Tal y como podemos ver en `el cuadro de IPs <https://syad.gonzaleztroyano.es/dir
 En tanto a los requisitos mínimos, tenemos el siguiente mapa de red proporcionado en las instrucciones de la práctica:
 
 .. image :: images/ip1.png
-   :width: 400
+    :align: center
+    :width: 400
+    :alt: Mapa de red proporcionado.
+
 
 Hardware de red
 ===============
@@ -33,6 +36,7 @@ Otra de las opciones a bajarar era *Sophos*, pero las licencias anuales son proh
 .. note ::
 
     Es posible que Unifi no sea suficientemente potente en comparación con otras soluciones. Por ejemplo, en el análisis de tráfico encriptado. 
+    
     Si la decisión final fuera mía, tuviera presupuesto y tiempo para conocer la solución me decantaría por la solución de Cisco Meraki. Combina la sencillez de Unifi con la potencia tradicional de Cisco. 
 
 

@@ -115,7 +115,7 @@ Creación de usuarios
 
 Vamos a crear dos usuarios Samba: *marta* y *juan*.
 
-Usaremos elos siguientes comandos:
+Usaremos los siguientes comandos:
 
 .. code-block:: console
 

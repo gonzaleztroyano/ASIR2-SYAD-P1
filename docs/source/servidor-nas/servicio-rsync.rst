@@ -9,7 +9,7 @@ Configuración del servicio
 
     La interfaz se encuentra en Inglés.
 
-Para acceder a la configuración del servicio Rsync debemos navegar desde el menú izquierdo a Services > Rsync 
+Para acceder a la configuración del servicio Rsync debemos navegar desde el menú izquierdo a Services > Rsync.
 
 Aquí, en la parte superior, vemos dos pestañas: *Jobs* y *Server*. Seleccionamos *Server* para configurarlo. 
 

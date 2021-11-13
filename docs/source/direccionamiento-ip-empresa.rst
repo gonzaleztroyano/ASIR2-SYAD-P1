@@ -17,6 +17,7 @@ Carpet4You dispone del AS número 88757. Este *Autonomous Number* tiene una seri
 
 
 .. Attention::
+
      Nótese que los rangos IPv6 no son enrutables en Internet y corresponde y son subrangos del rango dedicado por IANA para la confección de documentación.
 
 * Rango en IPv4: 100.65.65.0. Subdividido
@@ -86,7 +87,7 @@ Conexión entre sedes
 --------------------
 
 
-.. image :: images/ASIR2.SYAD.P1.3.Mapa.svg
+.. image :: images/ASIR2.SYAD.P1.3.Mapa.png
    :width: 500
    :align: center
    :alt: Mapa de Europa con las sedes y conexiones
@@ -94,9 +95,8 @@ Conexión entre sedes
 
 .. note::
 
-    Si accedes a esta documentación desde la versión PDF, el GIF es accesible desde `este enlace <https://github.com/gonzaleztroyano/ASIR2-SYAD-P1/blob/main/docs/source/images/ASIR2.SYAD.P1.3.Mapa.svg>`_
+    La imagen en formato SVG es accesible desde `este enlace <https://github.com/gonzaleztroyano/ASIR2-SYAD-P1/blob/main/docs/source/images/ASIR2.SYAD.P1.3.Mapa.svg>`_
 
-|br|
     
 .. note::
     El color rojo simboliza trabajadoras y trabajadores remotos. 

@@ -9,10 +9,9 @@ Configuración del servicio
 
     La interfaz se encuentra en Inglés.
 
-Para acceder a la configuración del servicio SSH debemos navegar desde el menú izquierdo a Services > SSH 
+Para acceder a la configuración del servicio SSH debemos navegar desde el menú izquierdo a Services > SSH.
 
 Desde aquí podemos cambiar las siguientes opciones:
-
 * Activar o desactivar el servicio utilizando el interruptor. 
 * Permitir, o no, el inicio de sesión como root. Lo más recomendable sería deshabilitarlo. 
 * Permitir, o no, el inicio la contraseña como método de inicio de sesión; así como el método de clave pública. 
@@ -38,7 +37,7 @@ Una vez realizadas las configuraciones, debemos guardarlas y aplicarlas.
 En la siguiente imagen tenemos un ejemplo de configuración:
 
 .. image :: ../images/nas/nas35.png
-   :width: 500
+   :width: 600
    :align: center
    :alt: Ejemplo de configuración de SSH
 |br|

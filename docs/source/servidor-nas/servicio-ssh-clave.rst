@@ -20,8 +20,9 @@ En el apartado de configuración debemos modificar algunos ajustes:
 
 .. tip:: 
     
-    | Es altamente recomendable cambiar el puerto por uno no estándar. En este caso no se va a realizar, aunque es un *must-do* para añadir una capa de seguridad adicional a nuestro servidor. Al igual que deshabilitar el usaurio root.
-    | Cabe una mención especial a la posibilidad de activar la autenticación en dos factores para SSH. A través de `este enlace <https://ubuntu.com/tutorials/configure-ssh-2fa#1-overview>`_ se puede obtener más información.
+    Es altamente recomendable cambiar el puerto por uno no estándar. En este caso no se va a realizar, aunque es un *must-do* para añadir una capa de seguridad adicional a nuestro servidor. Al igual que deshabilitar el usaurio root.
+    
+    Cabe una mención especial a la posibilidad de activar la autenticación en dos factores para SSH. A través de `este enlace <https://ubuntu.com/tutorials/configure-ssh-2fa#1-overview>`_ se puede obtener más información.
 
 
 Una vez realizadas las modificaciones desde la interfaz web, guardamos los cambios y los aplicamos. 
@@ -162,13 +163,14 @@ Inicio de sesión remoto con clave
             Oct 30 15:24:59 nas sshd[16530]: debug1: PAM: establishing credentials
             Oct 30 15:24:59 nas sshd[16530]: pam_unix(sshd:session): session opened for user user by (uid=0)
 
-    En el terminal cliente podemos ver la conexión establecida:
 
-    .. image :: ../images/nas/nas40-ssh.png
-        :width: 500
-        :align: center
-        :alt: La conexión está funcionando
-        |br|
+En el terminal cliente podemos ver la conexión establecida:
+
+.. image :: ../images/nas/nas40-ssh.png
+    :width: 500
+    :align: center
+    :alt: La conexión está funcionando
+|br|
 
 
 .. |br| raw:: html

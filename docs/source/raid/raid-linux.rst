@@ -7,17 +7,16 @@ Configuración de la MV
 
 Se utilizará una máquina virtual con Windows Server 2019 como sistema operativo. Se le asignan 4 GB de RAM y 4 vCPUs. 
 En tanto a la red, se configuran 1 adaptadores virtual:
+
 * Adaptador 1, configurado en modo NAT para la conexión a internet. 
 
 En tanto al usuario administrador utiliza la (poco segura) combinación *user:user*.
 
 Se añaden 9 discos virtuales a la máquina:
-
 * El disco principal de 50GB, donde almacenaremos el sistema operativo. 
 * 8 discos de 5GB que utilizaremos para configurar los sistemas RAID.
 
 La configuración por tanto es la siguiente:
-
 
 .. image :: ../images/raid/raid4.png
    :width: 500

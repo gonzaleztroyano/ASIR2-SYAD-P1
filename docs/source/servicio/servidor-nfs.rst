@@ -58,4 +58,6 @@ Configuración del cliente
 
 Crear los puntos de montaje:
 
-pablo@cliente:$/ sudo mkdir -p /nfs/compartidoNFS
+.. code-block:: console
+
+    pablo@cliente:$/ sudo mkdir -p /nfs/compartidoNFS

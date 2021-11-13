@@ -25,7 +25,7 @@ Copiamos y pegamos el contenido de la clave privada y el certificado en la inter
 Si ahora navegamos a la web, veremos el certificado correcto:
 
 
-.. image :: ../images/raid/nas27.png
+.. image :: ../images/nas/nas27.png
    :width: 500
    :align: center
    :alt: Captura de pantalla durante la importación del certificado.
