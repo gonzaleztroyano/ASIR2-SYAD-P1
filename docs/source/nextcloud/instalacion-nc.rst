@@ -184,7 +184,7 @@ Nota: no indicamos que instale Talk, Mail, Contacts ni Edición Colaborativa; pu
 En unos segundos estaremos dentro:
 
 .. image :: ../images/nextcloud/nc-10.png
-   :width: 500
+   :width: 600
    :align: center
 |br|
 

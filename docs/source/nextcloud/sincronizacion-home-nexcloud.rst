@@ -64,12 +64,13 @@ Para copiar los archivos desde la *home* del usuario hacia la carpeta en NextClo
 
 .. code-block::
 
-   rsync -a --exclude={.*} --chmod=755 --chown=www-data:www-data /home/pablo/ /var/www/nextcloud/data/pablo/files/home/
+   rsync -au --exclude={.*} --chmod=755 --chown=www-data:www-data /home/pablo/ /var/www/nextcloud/data/pablo/files/home/
 
 
 Desglosemos las opciones:
 
 * **-a**, la utilizamos para activar el formato archivo. Es una forma sencilla de aplicar recursividad y otras opciones que nos serán útiles.
+* **-u**, esta opción fuerza al comando a omitir cualquier archivo que en el destino tenga una fecha de actualización posterior a la fecha en origen. 
 * **--exclude={.*}**, con esta opción excluimos los archivos y directorios que empiezan por ``.``. Es decir, los que están ocultos. 
 * **--chmod=755**, estos son los permisos que se aplicarán a los archivos copiados en destino. 
 * **--chown=www-data:www-data**, los datos copiados serán propiedad del usuario que está ejecutando el servidor web, ``www-data`` en nuestro caso. 
@@ -129,7 +130,49 @@ Si ahora accedemos desde la interfaz web veremos los archivos:
 |br|
 
 
+Sincronización en ambos sentidos
+=================================
 
+Con todo lo anterior hemos conseguido sincronizar los archivos que el usuario tenía en su home con la carpeta en NextCloud. 
+
+Para hacerlo en el otro sentido debemos modificatr ligeramente el comando anterior. 
+
+.. code-block::
+
+   rsync -au --exclude={.*} --chmod=750 --chown=pablo:pablo /var/www/nextcloud/data/pablo/files/home/ /home/pablo/ 
+
+Automatización
+===============
+
+Se crea un script, que será ejecutado de forma automática por el *cron*. 
+
+El script se alojará en /etc/sync.sh y tendrá el siguiente contenido:
+
+.. code-block::
+
+   inicio=$(date)
+
+   logger "Proceso de copia iniciado: $inicio"
+
+   rsync -au --exclude={.*} --chmod=755 --chown=www-data:www-data /home/pablo/ /var/www/nextcloud/data/pablo/files/home/
+
+   rsync -au --exclude={.*} --chmod=750 --chown=pablo:pablo /var/www/nextcloud/data/pablo/files/home/ /home/pablo/ 
+
+   final=$(date)
+
+   logger "Proceso de copia finalizado: $final"
+    
+
+Lo añadiremos al *cron daemon* utilizando el comando ``crontab -e``.
+
+.. code-block::
+
+   0 * * * * /bin/sh /etc/sync.sh
+
+
+.. note::
+
+   El script solo funcionará para el usuario *pablo*. Para hacerlo universal habría que crear un bucle con los distintos usuarios a mantener sincronizados y sustituir en los comandos los nombres de usuario por las variables. 
 
 .. |br| raw:: html
 

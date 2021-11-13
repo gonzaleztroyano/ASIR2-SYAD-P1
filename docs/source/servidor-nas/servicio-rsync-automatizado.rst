@@ -102,7 +102,7 @@ Como medida de seguridad adicional, limitaremos el uso de la clave pública. Ind
 
 .. admonition:: Solo para valientes
 
-    Cabe la posibilidad de restringir`, mediante otra anotación en el archivo ``authorized_keys``, qué comandos puede ejecutar el usuario. 
+    Cabe la posibilidad de restringir, mediante otra anotación en el archivo ``authorized_keys``, qué comandos puede ejecutar el usuario. 
 
 .. |br| raw:: html
 

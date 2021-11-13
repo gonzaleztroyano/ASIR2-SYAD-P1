@@ -89,7 +89,8 @@ Linux
 En linux utilizaremos el siguiente comando:
 
 .. code-block:: console
-    pablo@carpet:~$ ssh usuario@nas.corp.carpet4you.site
+
+   pablo@carpet:~$ ssh usuario@nas.corp.carpet4you.site
 
 .. |br| raw:: html
 
