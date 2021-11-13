@@ -8,16 +8,14 @@ Configuración de la MV
 Llamaremos a la máquina virtual *ASIR2.SYAD.P1.NextCloud*. Será tipo Linux, versión Ubuntu 20.04 64bits. Asignaremos 4GB de memoria RAM y no añadiremos durante la creación ningún disco duro, pues lo haremos después.
 
 En tanto a la red, se configuran 2 adaptadores virtuales:
-
-* Adaptador 1, configurado en modo NAT para la conexión a internet. 
-* Adaptador 2, confiugrado en modo solo-anfitrión, para la conexión vía web y a los servicios.
+ * Adaptador 1, configurado en modo NAT para la conexión a internet. 
+ * Adaptador 2, confiugrado en modo solo-anfitrión, para la conexión vía web y a los servicios.
 
 
 Sobre los discos, se crean los siguientes discos virtuales:
-
-* 1 disco duro virtual de 10 Gb, que será donde instalaremos el arranque. 
-* 2 discos duros virtuales de 50 Gb. En estos instalaremos el sistema operativo, configurándolos en RAID 1 para la instalación del SO. 
-* 3 discos duros virtuales de 200 Gb. Sobre estos configuraremos RAID 5 para alojar los datos. 
+ * 1 disco duro virtual de 10 Gb, que será donde instalaremos el arranque. 
+ * 2 discos duros virtuales de 50 Gb. En estos instalaremos el sistema operativo, configurándolos en RAID 1 para la instalación del SO. 
+ * 3 discos duros virtuales de 200 Gb. Sobre estos configuraremos RAID 5 para alojar los datos. 
 
 Configuración RAID 0 para SO
 -----------------------------

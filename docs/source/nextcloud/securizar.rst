@@ -11,7 +11,6 @@ Descargamos los certificados:
     wget https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/public/cert-letsencrypt/fullchain1.pem
     wget https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/public/cert-letsencrypt/privkey1.pem
 
-Modificaremos el archivo
 
 Modificamos el archivo ``/etc/apache2/sites-available/nextcloud.conf`` para que tenga el siguiente contenido:
 

@@ -13,8 +13,8 @@ En tanto a la red, se configuran 1 adaptador virtual:
 En tanto al usuario administrador utiliza la (poco segura) combinación administrador:Clave_00.
 
 Se añaden 8 discos virtuales a la máquina:
-* El disco principal de 50GB, donde almacenaremos el sistema operativo. 
-* 7 discos de 5GB que utilizaremos para configurar los sistemas RAID.
+ * El disco principal de 50GB, donde almacenaremos el sistema operativo. 
+ * 7 discos de 5GB que utilizaremos para configurar los sistemas RAID.
 
 .. image :: ../images/raid/raid1.png
    :width: 500

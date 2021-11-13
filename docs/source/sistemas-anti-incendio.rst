@@ -14,7 +14,7 @@ Aunque siempre debemos estar preparados para enfrentarnos a un incendio de grand
 
 * Las diferentes salas del edificio de procesamiento de datos estarán separadas por puertas ignífugas. Se ha evitado en la construcción del edificio los pasillos largos que puedas propagar incendios. 
 * En la construcción del edificio también se ha exigido que las paredes no contengan materiales inflamables (aislamientos plásticos, poliuretano, etc). 
-* Las empleadas y empleados del centro de datos han asistido a cursos de PRL[#notaprl]_ y PI. Con cada mejora o actualización del sistema se repiten rondas de formación.
+* Las empleadas y empleados del centro de datos han asistido a cursos de PRL [#notaprl]_ y PI. Con cada mejora o actualización del sistema se repiten rondas de formación.
 * Se planifican simulacros de acción y evacuación, coordinados con el equipo de bomberos de la ciudad. 
 
 Detección y alerta de incendios

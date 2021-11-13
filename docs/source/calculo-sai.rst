@@ -61,7 +61,6 @@ Si se utilizara esta gama sería necesario instalarlos en una sala especialmente
  .. important ::
 
     Por tanto, calculamos que:
-    
     * 1h de actividad para un armario no crítico. Resistencia calculada de 200W * 30U = 6000W.  
     * 3h de actividad para un armario crítico. Resistencia calculada de 200W * 20U = 4000W.
 
