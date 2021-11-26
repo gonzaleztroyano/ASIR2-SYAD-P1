@@ -19,8 +19,8 @@ Si detecta cualquier error puede reportarlo como issue a través de [este enlace
 
 ### Licencia
 
-Esta obra se publica bajo la licenca Creative Commons BY 2.5 ES.
+Esta obra se publica bajo la licenca Creative Commons BY 4.0 International
 
 Autor y año de publicación: Pablo González, 2021
 
-Más información en [el archivo de licencia](./license.md)
+Más información en [el archivo de licencia](./license.md).
