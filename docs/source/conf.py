@@ -3,11 +3,11 @@
 # -- Project information
 
 project = 'Proyecto Seguridad y Alta Disponibilidad - Trimestre 1'
-copyright = '2021, Pablo González, CC BY 2.5 ES'
+copyright = '2021, Pablo González, CC BY 4.0'
 author = 'Pablo González Troyano - 2º ASIR - IES Villablanca'
 
-release = '1.1.4c133'
-version = '1.1.4c133'
+release = '1.1.4c138'
+version = '1.1.4c138'
 
 # -- General configuration
 

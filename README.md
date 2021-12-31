@@ -3,7 +3,9 @@
 
 En este repositorio se alojarán los documentos para la web [https://syad.gonzaleztroyano.es](https://syad.gonzaleztroyano.es/?utm_source=github&utm_content=readme)
 
-En la carpeta [public](./public) se encuentran los archivos para la el sitio web [https://Carpet4You.site](https://carpet4you.site?utm_source=github&utm_content=readme)
+En la carpeta [public](./public) se encuentran los archivos para la el sitio web [https://Carpet4You.site](https://carpet4you.site?utm_source=github&utm_content=readme). 
+
+Con fines de archivo, el sitio estará disponible bajo la dirección [gonzaleztroyano.es/carpet4you.site/](https://gonzaleztroyano.es/carpet4you.site/index.html?utm_source=github&utm_content=readme)
 
 Se utilizan las siguientes herramientas:
  * [Read the Docs](https://readthedocs.org/).
