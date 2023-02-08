@@ -36,7 +36,7 @@ html_theme = 'sphinx_rtd_theme'
 epub_show_urls = 'footnote'
 
 # -- Modificar el FAVICON -- 
-html_favicon = 'https://carpet4you.site/images/carpet_yellowline_32.png'
+html_favicon = 'https://raw.githubusercontent.com/gonzaleztroyano/ASIR2-SYAD-P1/main/public/images/carpet_yellowline_32.png'
 
 # -- Quitar las flechitas entre las páginas -- 
 html_theme_options = {
