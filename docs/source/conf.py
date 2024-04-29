@@ -43,3 +43,7 @@ html_theme_options = {
     'prev_next_buttons_location': 'none',
 
 }
+
+html_js_files = [
+    'custom.js',
+]
